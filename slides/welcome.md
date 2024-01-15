@@ -55,11 +55,11 @@ template: introductions
 
 ## Me
 
-Foo Barstein
+Tobias Blickhan
 
-instagram: [foo.barstein](https://instagram.com/foo.barstein)
+tobias.blickhan@nyu.edu
 
-discord: @foo.barstein
+Warren Weaver Hall 402 (251 Mercer St, New York)
 
 ---
 
@@ -125,11 +125,11 @@ template: know-knew
 There are many ways to input and output data from / to external sources.
 
 ```python
-response = input("What's brown and sticky?")
+response = input("What's your name?")
 ```
 
 ```python
-print("'{}' is correct!".format(response.capitalize()))
+print("Hi '{}'!".format(response.capitalize()))
 ```
 
 Review [input and output](https://nyu-python-programming.github.io/course-material/input-output).

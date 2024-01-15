@@ -33,7 +33,10 @@ Upon completing this course, students will be familiar with some of the foundati
 
 ## Instructor
 
-Tobias Blickhan <br />tobias.blickhan@nyu.edu<br />WWH 402
+Tobias Blickhan 
+<br />tobias.blickhan@nyu.edu<br />
+WWH 402
+Office hours TBD
 
 ## Getting help
 
@@ -45,11 +48,9 @@ Our course will use a message board (link to be distributed in class) as its mai
 
 ### Tutoring
 
-Tutors for this course are waiting to answer your questions, either on our message board or during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
+Tutors for this course are waiting to answer your questions, either on our message board or during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer. The tutors are an amazing resource. Ask them often
 
-Tutoring hours (all times in Eastern Time):
-
-- TBD
+Tutoring hours can be found on [Brightspace](https://brightspace.nyu.edu).
 
 ### Talk with the instructor
 
@@ -58,7 +59,7 @@ For any issues at all, contact the instructor:
 - see me before class
 - raise your hand or simply speak during class
 - see me after class
-- come to my open office hours - hours to be distrubuted in class
+- come to my office hours
 
 ### Additional tutoring resources
 
@@ -66,11 +67,15 @@ Additional academic support is also available through the [University Learning C
 
 ## Attendance & participation
 
-Attendance is mandatory. In-class and online message board participation is encouraged. Students who do not attend class regularly and who do not participate in discussions tend to do poorly.
+Attendance is mandatory. In-class and online message board participation is encouraged. Students who attend class regularly and participate in discussions tend to do better in exams.
 
 ## Required software and hardware
 
 All students require access to a computer on which they can write programs using a specific set of applications. Computers at any of the university's computer labs will do, as will any laptop or desktop computer.
+
+## Textbook
+
+The course is based on the book [_Introduction to Java Programming, Brief Version, 11th Edition_](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-java-programming-brief-version/P200000003486/9780137504374) written by _Y. Liang_ and published by _Pearson_. Please get yourself access to a copy of it.
 
 ### Computer labs
 
@@ -89,27 +94,14 @@ You will receive a grade calculated mechanically on the following rubric.
 - 25% second exam
 - 30% third exam
 
-### Quizzes
 
-Quizzes are completed outside of class. You must be logged into Google with your NYU Net ID account in Google in order to view the Quizzes. If you see an error message indicating you do not have permission to view a Quiz, it is because you are not logged into the correct NYU Net ID account.
+### Quizzes & Assignments
 
-Quizzes are submitted by submitting a Google Form, i.e. click the `Submit` button.
-
-### Late policy
+Quizzes and assignments are completed outside of class in [Brightspace](https://brightspace.nyu.edu).
 
 All assigned work is due _before_ class on the due date indicated on the [schedule](/)
 
-- for every 24 hours that work is late, we apply a 10% penalty on the grade, up to a maximum penalty of 30%.
-- after 72 hours, we will no longer accept the work.
-- for any group work, each member of the group will be penalized individually.
-
-### Extensions
-
-Students are automatically granted 2 late assignment extensions of up to 3 days late each, with the exception that all assignments must be submitted before the last day of regular classes before the final exam period.
-
-- when submitting an assignment for which you would like to use one of these automatic extensions, you must notify the grader that you are using the extension, otherwise your assignment will be rejected.
-- for group work, each member of the group must use an extension (or lose points if none is available) for the entire group to submit work late.
-- _No additional extensions will be granted._
+There are no extensions.
 
 ### Regrade requests
 
@@ -126,3 +118,7 @@ If a student requests a regrade of any work, we will regrade the work in full, n
 Working with others and leveraging all resources available to you is a prerequisite for success. This is different from copying, cheating, plagiarism, and mental laziness. All submitted work must be your own. There are very reliable systems we use to detect plagiarism in computer code, such as [moss](http://theory.stanford.edu/~aiken/moss/) and [compare50](https://github.com/cs50/compare50). If you submit any work that is not your own, you risk failure or worse.
 
 Please read the [Computer Science department's policy on academic integrity](http://cs.nyu.edu/home/undergrad/policy.html) and the [University-wide policy](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html) which supercedes it.
+
+## Acknowledgements
+
+This course was originally designed by Amos Bloomberg. All course materials were forked from his [GitHub repository](https://github.com/nyu-java-programming).

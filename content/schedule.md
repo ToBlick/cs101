@@ -1,6 +1,6 @@
 ---
 title: Schedule
-permalink: /
+permalink: /schedule/
 ---
 
 # Introduction to Computer Science

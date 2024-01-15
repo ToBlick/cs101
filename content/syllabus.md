@@ -33,7 +33,7 @@ Upon completing this course, students will be familiar with some of the foundati
 
 ## Instructor
 
-Amos Bloomberg<br />amos@cs.nyu.edu<br />WWH 424
+Tobias Blickhan <br />tobias.blickhan@nyu.edu<br />WWH 402
 
 ## Getting help
 

@@ -6,7 +6,7 @@ Slide presentations used to teach basic computer science concepts, largely focus
 
 ## Deployed site
 
-View the [schedule](https://toblick.github.io/cs101-spring24//syllabus/) and [syllabus](https://toblick.github.io/cs101-spring24/syllabus/), which contain links to all deployed course materials.
+View the [schedule](https://toblick.github.io/cs101-spring24/) and [syllabus](https://toblick.github.io/cs101-spring24/syllabus/), which contain links to all deployed course materials.
 
 ## Running locally
 

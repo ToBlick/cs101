@@ -1,8 +1,8 @@
-This repository and all its content is based on [Amos Bloomberg's Intro To Computer Science](https://github.com/nyu-java-programming/course-materials). Many thanks to him.
-
-# Introduction to Computer Science
+# Introduction to Computer Science (CSCI-UA 0101-004)
 
 Slide presentations used to teach basic computer science concepts, largely focused on object-oriented programming.
+
+This repository and all its content is based on [Amos Bloomberg's](https://knowledge.kitchen/me/cv/) [Intro To Computer Science](https://github.com/nyu-java-programming/course-materials). Many thanks to him and Daniel Zink. You can check for updates to this site on its [repository](https://github.com/ToBlick/cs101-spring24).
 
 ## Deployed site
 

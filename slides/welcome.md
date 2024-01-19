@@ -39,7 +39,7 @@ name: introductions-1
 Introduction to Computer Science
 
 - Syllabus: [syllabus](../../syllabus)
-- Schedule: [schedule](../../)
+- Schedule: [schedule](../../schedule)
 
 ---
 
@@ -339,20 +339,20 @@ math.pow(2, 2)
 
 Try to convince me that you don't understand this code:
 
-```javascript
-let x = 5;
-let y = true;
-if (x < 10 and y == true) {
-    console.log("Easy peasy!");
-}
-```
-
 ```java
 int x = 5;
 boolean y = true;
-if (x < 10 and y == true) {
+if (x < 10 && y == true) {
     System.out.println("Easy peasy!");
 }
+```
+
+```julia
+x = 5
+y = true
+if x < 10 && y == true
+    println("Easy peasy!")
+end
 ```
 
 ---
@@ -426,7 +426,7 @@ Can you answer these questions?
 
 --
 
-Review [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts).
+Review [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts) (and/or chapter 1.1-1.4 in the textbook).
 
 ---
 
@@ -533,7 +533,7 @@ I will speak for 75 minutes about twice each week.... that's 150 minutes of talk
 
 --
 
-I sincerely hope for your sake and mine that you will interrupt me and ask lots of questions.
+Please do interrupt me and ask questions. Lectures are more effective when they are not a monologue.
 
 ---
 
@@ -541,7 +541,7 @@ template: how-course-works
 
 ## Notes
 
-I write notes for most lecture topics. You may find them useful but incomplete.
+There are notes for most lecture topics by [Amos Bloomberg](https://knowledge.kitchen/). You may find them useful but incomplete.
 
 ---
 
@@ -549,7 +549,7 @@ template: how-course-works
 
 ## Slides
 
-Students constantly request slides, so I have made them. However, I believe you are better off reviewing documents and code. Each slide has a link to its "source" document, which may be easier to read.
+The slides are available on the [schedule](../../schedule). The slides are more of a table of contents of the lecture and are not meant to replace the textbook, notes, or example code.
 
 ---
 
@@ -567,8 +567,6 @@ template: how-course-works
 
 You will have somewhere around 10 assignments.
 
-You lose 10 points for each day late and we do not accept submissions more than 3 days late.
-
 See the complete [lateness policy](../../syllabus).
 
 ---
@@ -580,17 +578,13 @@ name: extensions
 
 Please do not ask for an extension.
 
---
-
-You are hereby granted 2 free extensions for work submitted up to 1 week past the due date.
-
 ---
 
 template: how-course-works
 
 ## Quizzes
 
-Regular simple multiple-choice online quizzes. These are meant to help you self-assess your own mastery of conceptual material.
+The can be simple multiple-choice online quizzes. These are meant to help you self-assess your own mastery of conceptual material.
 
 ---
 
@@ -600,9 +594,7 @@ template: how-course-works
 
 You will take 3 exams.
 
-Many find the first exam to be easy. The second and third... not so much!
-
-Students who come to class tend to do better.
+The exams later exams are worth a bit bit more points and are a bit harder.
 
 ---
 
@@ -610,11 +602,10 @@ template: how-course-works
 
 ## Grading
 
-- 25% quizzes
-- 35% assignments
-- 10% first exam
-- 15% second exam
-- 15% third exam
+- 25% quizzes + assignments
+- 20% first exam
+- 25% second exam
+- 30% third exam
 
 ---
 
@@ -622,11 +613,7 @@ template: how-course-works
 
 ## Communication
 
-We use Dicord for all communication outside of the classroom.
-
-You must create a private channel in Discord.
-
-Check the complete [Discord details](../../syllabus).
+Announcements concerning the course will be posted on Brightspace. There is also a discussions (forum) function there. You can always talk to me before or after class and during office hours.
 
 ---
 
@@ -638,7 +625,7 @@ Tutors are waiting to answer your questions virtually all day every day of the w
 
 See them often. See them fast.
 
-Check the complete [tutoring schedule](../../syllabus).
+The tutoring schedule is released on Brightspace.
 
 ---
 
@@ -648,7 +635,7 @@ Check the complete [tutoring schedule](../../syllabus).
 
 # What to do now
 
-## Review the syllabus
+## Check the syllabus
 
 The [syllabus](../../syllabus) contains basic information on how this course works.
 
@@ -664,23 +651,9 @@ The [schedule](../../) contains a day-by-day breakdown of everything you need to
 
 # What to do now
 
-## Complete the consent form
-
-Your consent is necessary since we use software that is not obliged to abide by the Family Educational Rights and Privacy Act.
-
-https://goo.gl/forms/uxxgA3D9F3kA0KAR2
-
-Contact me if you have concerns about privacy.
-
----
-
-# What to do now
-
 ## Download and JDK version 8
 
-The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE). We use the older version 8 because it is compatible with [Processing](https://processing.org), which we will use later in this course, whereas Processing is not compatible with newer versions of the JDK.
-
-https://www.oracle.com/java/technologies/downloads/#java8
+The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE) Version 21. Assignments will be tested against Java 21.
 
 ---
 
@@ -706,12 +679,14 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 # What to do now
 
-## Install Git
+## Install a shell
 
-Get git [for Mac](https://git-scm.com/downloads) or [Git for Windows](https://gitforwindows.org/).
-
-- Git for Windows additionally comes with Git Bash, which gives Windows users a UNIX-like command shell.
-- WINDOWS USERS - you should use Git Bash or Windows Subsystem for Linux (WSL) rather than Windows' default Powershell or other command line shell program. To set Git Bash or WSL as the default terminal shell within Visual Studio Code, you can try to follow the instructions in [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answe, which is outdated).
+- Windows (WSL):
+ - [Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+ - If using VSCode: [Set VSCode to use WSL Bash](https://devblogs.microsoft.com/commandline/tips-and-tricks-for-linux-development-with-wsl-and-visual-studio-code/#setting-the-default-shell)
+- alternatively: Windows (Git)
+ - [Install Git for Windows](https://gitforwindows.org/).
+ - To set Git Bash up in VSCode [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answe, which is outdated).
 - Mac users already have a UNIX command shell in the Terminal app.
 
 ---
@@ -723,17 +698,3 @@ name: conclusions
 --
 
 - Welcome!
-
---
-
-- Start to think like a compiler... or is it an interpreter... or an assembler?
-
---
-
-```python
-print("There's no reason to worry... {}".format("yet!"))
-```
-
---
-
-- Thanks. Bye.

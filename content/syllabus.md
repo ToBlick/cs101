@@ -35,8 +35,8 @@ Upon completing this course, students will be familiar with some of the foundati
 
 Tobias Blickhan 
 <br />tobias.blickhan@nyu.edu<br />
-WWH 402
-Office hours TBD
+WWH 402 <br />
+Office hours: Tuesdays 4 to 5PM and Thursdays 1 to 2PM
 
 ## Getting help
 
@@ -44,11 +44,11 @@ Help resources available to you are listed in order of urgency of your problem:
 
 ### Messaging
 
-Our course will use a message board (link to be distributed in class) as its main communication channel for announcements and discussion. This is a good place to ask questions that anyone - other students, graders, tutors, or the professor - can answer. This is a resource best used when the answer is not required urgently.
+Our course will use a message board (probably on Brightspace) as a communication channel for announcements and discussion. This is a good place to ask questions that anyone - other students, graders, tutors, or the professor - can answer. This is a resource best used when the answer is not required urgently.
 
 ### Tutoring
 
-Tutors for this course are waiting to answer your questions, either on our message board or during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer. The tutors are an amazing resource. Ask them often
+Tutors for this course are waiting to answer your questions during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer. The tutors are an amazing resource. Ask them often!
 
 Tutoring hours can be found on [Brightspace](https://brightspace.nyu.edu).
 
@@ -67,7 +67,7 @@ Additional academic support is also available through the [University Learning C
 
 ## Attendance & participation
 
-Attendance is mandatory. In-class and online message board participation is encouraged. Students who attend class regularly and participate in discussions tend to do better in exams.
+Attendance is mandatory and  participation is encouraged. Students who attend class regularly and participate in discussions tend to do better in exams.
 
 ## Required software and hardware
 
@@ -75,7 +75,7 @@ All students require access to a computer on which they can write programs using
 
 ## Textbook
 
-The course is based on the book [_Introduction to Java Programming, Brief Version, 11th Edition_](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-java-programming-brief-version/P200000003486/9780137504374) written by _Y. Liang_ and published by _Pearson_. Please get yourself access to a copy of it.
+The course is based on the book [_Introduction to Java Programming, Brief Version, 11th Edition_](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-java-programming-brief-version/P200000003486/9780137504374) written by _Y. Liang_ and published by _Pearson_.
 
 ### Computer labs
 
@@ -101,7 +101,7 @@ Quizzes and assignments are completed outside of class in [Brightspace](https://
 
 All assigned work is due _before_ class on the due date indicated on the [schedule](/)
 
-There are no extensions.
+Please do not ask for extensions.
 
 ### Regrade requests
 

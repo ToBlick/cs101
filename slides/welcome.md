@@ -5,7 +5,7 @@ permalink: /slides/welcome/
 ---
 
 class: center, middle
-
+xaxis = :log, yaxis =:log,k
 # Welcome
 
 Intro to Computer Science
@@ -218,9 +218,9 @@ Lists are useful for storing a set of related values.
 
 ```python
 favorite_foods = [
-    "Pizza with glyphosate-coated bleached wheat flour and soy cheese",
-    "Coffee with GMO corn syrup solids added",
-    "Emulsified non-fat sugar-free ice cream with artificial sweetener"
+    "Pizza",
+    "Noodles",
+    "Vegemite Sandwich"
     ]
 ```
 
@@ -567,15 +567,6 @@ template: how-course-works
 
 You will have somewhere around 10 assignments.
 
-See the complete [lateness policy](../../syllabus).
-
----
-
-template: how-course-works
-name: extensions
-
-## Extensions
-
 Please do not ask for an extension.
 
 ---
@@ -594,7 +585,7 @@ template: how-course-works
 
 You will take 3 exams.
 
-The exams later exams are worth a bit bit more points and are a bit harder.
+The later exams are worth a bit bit more points and are a bit harder.
 
 ---
 
@@ -651,7 +642,7 @@ The [schedule](../../) contains a day-by-day breakdown of everything you need to
 
 # What to do now
 
-## Download and JDK version 8
+## Download JDK
 
 The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE) Version 21. Assignments will be tested against Java 21.
 
@@ -659,17 +650,11 @@ The Java Development Kit (JDK) is a necessary set of tools that help develop Jav
 
 # What to do now
 
-## Download and install Visual Studio Code
+## Optional: Download and install Visual Studio Code
 
 Visual Studio Code is an Integrated Development Environment (IDE) that integrates with the JDK to allow you to easily write and debug Java programs.
 
 https://code.visualstudio.com
-
----
-
-# What to do now
-
-## Download and install the Extension Pack for Java
 
 These extensions to Visual Studio Code make it suitable for Java programming.
 
@@ -686,7 +671,7 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
  - If using VSCode: [Set VSCode to use WSL Bash](https://devblogs.microsoft.com/commandline/tips-and-tricks-for-linux-development-with-wsl-and-visual-studio-code/#setting-the-default-shell)
 - alternatively: Windows (Git)
  - [Install Git for Windows](https://gitforwindows.org/).
- - To set Git Bash up in VSCode [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answe, which is outdated).
+ - To set Git Bash up in VSCode [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answer, which is outdated).
 - Mac users already have a UNIX command shell in the Terminal app.
 
 ---

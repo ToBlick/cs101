@@ -5,7 +5,6 @@ permalink: /slides/welcome/
 ---
 
 class: center, middle
-xaxis = :log, yaxis =:log,k
 # Welcome
 
 Intro to Computer Science

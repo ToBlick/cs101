@@ -60,6 +60,8 @@ tobias.blickhan@nyu.edu
 
 Warren Weaver Hall 402 (251 Mercer St, New York)
 
+Office hours: Tuesdays 4 to 5PM and Thursdays 1 to 2PM
+
 ---
 
 template: introductions
@@ -417,14 +419,6 @@ Can you answer these questions?
 
 --
 
-- What is the Internet? What is The World Wide Web?
-
---
-
-- What is The Cloud?
-
---
-
 Review [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts) (and/or chapter 1.1-1.4 in the textbook).
 
 ---
@@ -643,7 +637,7 @@ The [schedule](../../) contains a day-by-day breakdown of everything you need to
 
 ## Download JDK
 
-The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE) Version 21. Assignments will be tested against Java 21.
+The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE) Version 17. Assignments will be tested against Java 17.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: presentation
 title: Basic Computer Concepts
-permalink: /slides/basic-computer-concepts/
+permalink: /slides/basic_computer_concepts/
 ---
 
 class: center, middle

@@ -131,7 +131,7 @@ Some computers combine parts together
 ---
 ## Larger architectures
 
-<img src="./files/greene.png"/>
+<img src="../files/greene.png"/>
 <a href="https://sites.google.com/nyu.edu/nyu-hpc/hpc-systems/greene/hardware-specs">NYU High Performance Computing</a>
 
 ---
@@ -215,8 +215,8 @@ name: desktop_analogy
  - All 0's and 1's, but we organize them using software so other software can derive meaning
  - We already had systems for organizing data at our desks, so we modeled off of them
 
-<a href="https://www.youtube.com/watch?v=1UtlOgkOGy4"><img src="./files/apple_desktop_2.png" width=300/></a>
-<a href="http://toastytech.com/guis/a2desk.html"><img src="./files/apple_desktop.png" width=300\></a>
+<a href="https://www.youtube.com/watch?v=1UtlOgkOGy4"><img src="../files/apple_desktop_2.png" width=300/></a>
+<a href="http://toastytech.com/guis/a2desk.html"><img src="../files/apple_desktop.png" width=300\></a>
   
 .right[images are links to sources]
 
@@ -288,7 +288,7 @@ Lines of human-readable characters, potentially separated into lines
 
 Writing software (source code) almost always involve manipulating text files.
 
-<a href="https://github.com/petsc/petsc/tree/main"><img src="./files/gmres.png" width=300\></a>
+<a href="https://github.com/petsc/petsc/tree/main"><img src="../files/gmres.png" width=300\></a>
 
 --
 
@@ -622,7 +622,7 @@ protocol and other proprietary protocols)
 
 You might be familiar with the binary number system:
 
-<img src="./files/joke.png" width=400 />
+<img src="../files/joke.png" width=400 />
 
 You can even buy Tshirts with this joke if you like it a lot.
 

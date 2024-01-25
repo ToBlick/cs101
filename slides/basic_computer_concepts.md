@@ -699,7 +699,7 @@ $S = A$ or (exclusive!) $B$. $C = A$ and $B$.
 
 If you can build a circuit (or a mechanical system!) that implements "exclusive or" as well as "and", you can add two bits!
 
-You can then chain these elements together to add more bits (have to consider carried bits as inout now!).
+You can then chain these elements together to add more bits (have to consider carried bits as input now!).
 
 ---
 

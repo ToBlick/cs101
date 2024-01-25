@@ -401,6 +401,9 @@ json
              style="fill:#4f2987;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 118.977,129.176 c -27.6723,16.512 -24.9028,40.094 -13.434,57.426 0.246,0.363 0.324,0.968 0.246,1.671 -0.48,4.122 -4.977,14.551 -6.8554,17.387 -0.4805,0.719 -0.8906,0.66 -0.9375,0.149 -0.1523,-4.715 -5.5195,-16.532 -13.7344,-30.141 -8.7305,-14.484 -8.75,-45.918 34.5933,-47.145 0.415,-0.011 0.532,0.415 0.122,0.653 z m 7.402,1.219 c -16.543,35.343 16.547,58.171 21.937,63.121 0.762,0.695 0.571,1.336 0.586,2.129 0,11.128 -6.375,29.132 -8.464,31.707 -0.293,0.398 -0.543,0.226 -0.665,-0.176 -2.824,-10.969 -17.882,-27.317 -20.918,-30.895 -25.5464,-30.375 -19.6988,-48.871 6.973,-66.316 0.34,-0.215 0.75,0.031 0.551,0.43 z m 5.391,1.503 c 7.816,37.489 38.328,38.403 41.058,45.516 4.258,11.094 -3.535,30.781 -5.527,33.109 -0.192,0.25 -0.469,0.09 -0.567,-0.117 -4.136,-9.082 -10.843,-17.73 -15.738,-21.703 -6.926,-5.578 -33.43,-25.223 -19.875,-56.832 0.156,-0.391 0.555,-0.293 0.649,0.027 z m 5.425,-3.253 c 49.403,-1.79 52.899,43.23 53.094,60.078 0.023,0.976 -0.469,1.062 -0.703,0.379 -1.465,-3.516 -7.887,-16.071 -25.699,-23.704 -15.907,-6.824 -25.473,-22.308 -27.141,-36.222 -0.074,-0.344 0.219,-0.531 0.449,-0.531 z m 11.239,-16.875 v 11.335 H 109.469 V 111.77 h 38.965 z M 125.652,31.5625 c 0.317,-1.8945 4.414,-2.8242 5.332,0 l 9.438,74.7925 h -22.926 l 8.156,-74.7925 z M 269.984,0 H 0 V 270 H 269.984 V 0" /></g></g></g></g></svg>
 ```
+---
+
+## Surprising Example of a Text File
 
 <a href="https://nyu.edu"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Nyu_short_color.svg" alt="drawing" width="50%"/></a>
 
@@ -647,7 +650,7 @@ $$ 719 = 1011001111 = 2^9 + 2^7 + 2^6 + 2^3 + 2^2 + 2^1 + 2^0 $$
 
 $$ 720 = 1011010000 = 2^9 + 2^7 + 2^6 + 2^4 $$
 
-If all bits are 1s, then you loop around to \\(\000...001\\) or something of the sort, which is either a very small or a negative number!
+If all bits are 1s, then you loop around to 000...001 or something of the sort, which is either a very small or a negative number!
 
 [Wikipedia](https://en.wikipedia.org/wiki/Integer_overflow) has some examples of integer overflow bugs - from aviation to game consoles.
 
@@ -665,7 +668,7 @@ $$(-1)^{\mathrm{sign}} \times 2^{\mathrm{exponent}} \times 1.{\mathrm{fraction}}
 
 Not all bits are treated equally now: One holds the sign, 8 hold the exponent, and 23 hold the fraction, i.e. the digits after the 1. 
 
-They can represent \\(\ \{-1,+1\},\{-126,...,127\}, \{1,1+2^{-23},...,2-2^{-23}\} \\). Exponents with all ones and all zeros are reserved ( \\(\infty$, NaN, 0 \\) ).
+They can represent \\(\ \{-1,+1\},\{-126,...,127\}, \{1,1+2^{-23},...,2-2^{-23}\} \\). Exponents with all ones and all zeros are reserved (Inf, NaN, 0).
 
 The smallest representable number is now \\(\ 2^{−126} × 2^{−23} \approx 1.4 \times 10^{-45} \\).
 

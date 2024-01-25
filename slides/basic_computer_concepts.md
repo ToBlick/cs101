@@ -19,6 +19,7 @@ class: center, middle
 1. [Desktop Analogy](#desktop_analogy)
   - Files and good practices
 1. [Networks](#networks)
+1. [Numbers](#numbers)
 1. [Conclusions](#conclusion)
 
 ???
@@ -77,7 +78,7 @@ Motherboard connect all of the components together via busses
   - Both sides visible [here](https://youtu.be/CaAY-jAjm0w?t=295)
   - Interesting to look at [this teardown](https://www.ifixit.com/Teardown/PlayStation+5+Teardown/138280)
 
-<img src="https://pbs.twimg.com/media/FejleAtXkAEEiDz?format=jpg&name=4096x4096" width=600 />
+<img src="https://pbs.twimg.com/media/FejleAtXkAEEiDz?format=jpg&name=4096x4096" width=500 />
 
 ---
 
@@ -216,7 +217,7 @@ name: desktop_analogy
  - We already had systems for organizing data at our desks, so we modeled off of them
 
 <a href="https://www.youtube.com/watch?v=1UtlOgkOGy4"><img src="../files/apple_desktop_2.png" width="45%"/></a>
-<a href="http://toastytech.com/guis/a2desk.html"><img src="../files/apple_desktop.png" width="45%\></a>
+<a href="http://toastytech.com/guis/a2desk.html"><img src="../files/apple_desktop.png" width="45%"\></a>
   
 .right[images are links to sources]
 
@@ -351,7 +352,7 @@ json
 - There are many other ways to store data
 
  - Numbers (from wiki on float32)
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Float_example.svg/590px-Float_example.svg.png" width="60%"\>
+<img src="../files/float32.png" width="60%"\>
 
  - Colors (from wiki on bitmap encoding)
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BitfieldsSLN.svg" width="60%"\>
@@ -369,34 +370,41 @@ json
 ## Surprising Example of a Text File
 
 ```xml
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 46" width="135" height="46">
-  <path class="cls-1" d="M57.88,9.71h5.28l12.26,16v-16H81V35.78H76.1L63.5,19.08v16.7H57.88Z"></path>
-  <path class="cls-1" d="M94,25.56l-10-15.85h6.64l6.3,10.56,6.3-10.56h6.46l-10,15.68V35.78H93.8V25.56Z"></path>
-  <path class="cls-1" d="M112.19,24.7v-15H118V24.53c0,4.26,2,6.48,5.61,6.48s5.62-2.05,5.62-6.31v-15H135V24.53c0,7.84-4.43,11.76-11.41,11.76C116.44,36.29,112.19,32.37,112.19,24.7Z"></path>
-  <path class="cls-1" d="M46,46H0V0H46V46ZM21.45,40.55c0,.34.68.51.85,0l1.53-12.78H19.92l1.53,12.78ZM25.2,26.92V25H18.56v1.88ZM23.32,24c8.34.34,9-7.32,9-10.22h0c-.17.68-1.37,2.73-4.43,4.09A7.38,7.38,0,0,0,23.32,24Zm-.85-.51c1.36-6.3,6.47-6.47,7-7.67.68-1.87-.68-5.28-1-5.62h-.17A11.15,11.15,0,0,1,25.54,14c-1,.85-5.45,4.26-3.07,9.54Zm-1,.34c-2.89-6,2.89-9.88,3.75-10.73.17-.17.17-.17.17-.34A15.55,15.55,0,0,0,24,7.33h-.17c-.51,1.87-3.06,4.6-3.57,5.28-4.43,5.11-3.41,8.35,1.19,11.24ZM20.26,24c-4.77-2.89-4.26-6.81-2.21-9.71V14a7.46,7.46,0,0,0-1.2-2.9c0-.17-.17-.17-.17,0,0,.86-1,2.9-2.38,5.12-1.36,2.38-1.36,7.66,6,7.83Z"></path>
-</svg>
+<svg
+   version="1.1"><metadata
+     ...></metadata><defs
+     id="defs6"><clipPath
+       id="clipPath20"
+       clipPathUnits="userSpaceOnUse"><path
+         id="path18"
+         d="M 0,270 V 0 h 792.809 v 270 z" /></clipPath></defs><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,36)"
+     id="g10"><g
+       transform="scale(0.1)"
+       id="g12"><g
+         id="g14"><g
+           clip-path="url(#clipPath20)"
+           id="g16"><path
+             id="path22"
+             style="fill:#4f2987;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 340.016,212.883 h 31.121 l 71.836,-94.438 v 94.438 h 33.3 V 59.5117 H 447.582 L 373.305,157.012 V 59.5117 H 340.016 V 212.883" /><path
+             id="path24"
+             style="fill:#4f2987;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 552.055,119.988 -58.926,92.895 h 39.445 l 36.59,-61.574 37.238,61.574 h 38.321 L 585.805,120.637 V 59.5117 h -33.75 v 60.4763" /><path
+             id="path26"
+             style="fill:#4f2987;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 659.184,125.242 v 87.641 h 33.75 v -86.77 c 0,-24.968 12.453,-37.8982 33.066,-37.8982 20.578,0 33.086,12.5002 33.086,36.7972 v 87.871 h 33.723 V 126.34 c 0,-46.4377 -26.075,-69.2306 -67.266,-69.2306 -41.164,0 -66.359,22.9961 -66.359,68.1326" /><path
+             id="path28"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 29.3984,17.9102 h 201.746 v 233.34 H 29.3984 Z" /><path
+             id="path30"
+             style="fill:#4f2987;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 118.977,129.176 c -27.6723,16.512 -24.9028,40.094 -13.434,57.426 0.246,0.363 0.324,0.968 0.246,1.671 -0.48,4.122 -4.977,14.551 -6.8554,17.387 -0.4805,0.719 -0.8906,0.66 -0.9375,0.149 -0.1523,-4.715 -5.5195,-16.532 -13.7344,-30.141 -8.7305,-14.484 -8.75,-45.918 34.5933,-47.145 0.415,-0.011 0.532,0.415 0.122,0.653 z m 7.402,1.219 c -16.543,35.343 16.547,58.171 21.937,63.121 0.762,0.695 0.571,1.336 0.586,2.129 0,11.128 -6.375,29.132 -8.464,31.707 -0.293,0.398 -0.543,0.226 -0.665,-0.176 -2.824,-10.969 -17.882,-27.317 -20.918,-30.895 -25.5464,-30.375 -19.6988,-48.871 6.973,-66.316 0.34,-0.215 0.75,0.031 0.551,0.43 z m 5.391,1.503 c 7.816,37.489 38.328,38.403 41.058,45.516 4.258,11.094 -3.535,30.781 -5.527,33.109 -0.192,0.25 -0.469,0.09 -0.567,-0.117 -4.136,-9.082 -10.843,-17.73 -15.738,-21.703 -6.926,-5.578 -33.43,-25.223 -19.875,-56.832 0.156,-0.391 0.555,-0.293 0.649,0.027 z m 5.425,-3.253 c 49.403,-1.79 52.899,43.23 53.094,60.078 0.023,0.976 -0.469,1.062 -0.703,0.379 -1.465,-3.516 -7.887,-16.071 -25.699,-23.704 -15.907,-6.824 -25.473,-22.308 -27.141,-36.222 -0.074,-0.344 0.219,-0.531 0.449,-0.531 z m 11.239,-16.875 v 11.335 H 109.469 V 111.77 h 38.965 z M 125.652,31.5625 c 0.317,-1.8945 4.414,-2.8242 5.332,0 l 9.438,74.7925 h -22.926 l 8.156,-74.7925 z M 269.984,0 H 0 V 270 H 269.984 V 0" /></g></g></g></g></svg>
 ```
 
---
-
-<a href="https://nyu.edu"><img src="../../content/assets/nyu.svg" alt="drawing" width="250"/></a>
+<a href="https://nyu.edu"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Nyu_short_color.svg" alt="drawing" width="50%"/></a>
 
 --
-
-```xml
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 46" width="135" height="46">
-  <path class="cls-1" d="M57.88,9.71h5.28l12.26,16v-16H81V35.78H76.1L63.5,19.08v16.7H57.88Z"></path>
-  <path class="cls-1" d="M94,25.56l-10-15.85h6.64l6.3,10.56,6.3-10.56h6.46l-10,15.68V35.78H93.8V25.56Z"></path>
-  <path class="cls-1" d="M112.19,24.7v-15H118V24.53c0,4.26,2,6.48,5.61,6.48s5.62-2.05,5.62-6.31v-15H135V24.53c0,7.84-4.43,11.76-11.41,11.76C116.44,36.29,112.19,32.37,112.19,24.7Z"></path>
-</svg>
-```
-
-<img src="../../content/assets/nyu_words.svg" alt="drawing" width="250"/>
-
----
-
-
-
 
 ### Binary file editors
 
@@ -614,7 +622,7 @@ protocol and other proprietary protocols)
 
 You might be familiar with the binary number system:
 
-<img src="../files/joke.png" width="66% />
+<img src="../files/joke.png" width="66%" />
 
 ---
 
@@ -635,9 +643,9 @@ If you want to represent negative numbers, one bit has to hold the sign, so you 
 
 Adding numbers in binary is simple: just carry the ones.
 
-$$ \begin{align*} 719 &= 1011001111 = 2^9 + 2^7 + 2^6 + 2^3 + 2^2 + 2^1 + 2^0 \\
+$$ 719 = 1011001111 = 2^9 + 2^7 + 2^6 + 2^3 + 2^2 + 2^1 + 2^0 $$
 
-720 &= 1011010000 = 2^9 + 2^7 + 2^6 + 2^4 \end{align*}$$
+$$ 720 = 1011010000 = 2^9 + 2^7 + 2^6 + 2^4 $$
 
 If all bits are 1s, then you loop around to \\(\000...001\\) or something of the sort, which is either a very small or a negative number!
 
@@ -651,7 +659,7 @@ This system obviously has its flaws. We need 80 bits to represent the Avogadro c
 
 Let's go back to [Float32 (IEEE 754 standard)](https://en.wikipedia.org/wiki/Single-precision_floating-point_format):
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Float_example.svg/590px-Float_example.svg.png" width="60%"\>
+<img src="../files/float32.png" width="60%"\>
 
 $$(-1)^{\mathrm{sign}} \times 2^{\mathrm{exponent}} \times 1.{\mathrm{fraction}} $$
 
@@ -669,32 +677,18 @@ Most calculations are done in double or Float64 format.
 
 ## How does a computer actually compute?
 
-At the lowest level: how do we add two bits?
+At the lowest level: how do we add two bits? Input: two bits. Output: 
 
-Input: two bits.
-
-Output: 
-
-$$
-\begin{align*}
-
-\{0,0\} \mapsto \{ 0, \text{carry } 0\}. \\
-
-\{0,1\} \mapsto \{ 1, \text{carry } 0\}. \\
-
-\{1,0\} \mapsto \{ 1, \text{carry } 0\}. \\
-
-\{1,1\} \mapsto \{ 0, \text{carry } 1\}. \\
-
-\end{align*} $$
+$$ \{0,0\} \mapsto \{ 0, \text{carry } 0\}. $$
+$$ \{0,1\} \mapsto \{ 1, \text{carry } 0\}. $$
+$$ \{1,0\} \mapsto \{ 1, \text{carry } 0\}. $$
+$$ \{1,1\} \mapsto \{ 0, \text{carry } 1\}. $$
 
 Call the two inputs A, B and the output S, C. You can translate this to:
 
 S = "A or (exclusive!) B". C = "A and B".
 
-If you can build a circuit (or a mechanical system!) that implements "exclusive or" as well as "and", you can add two bits!
-
-You can then chain these elements together to add more bits (have to consider carried bits as input now!).
+If you can build a circuit (or a mechanical system!) that implements "exclusive or" as well as "and", you can add two bits! You can then chain these elements together to add more bits (have to consider carried bits as input now!).
 
 ---
 

@@ -215,8 +215,8 @@ name: desktop_analogy
  - All 0's and 1's, but we organize them using software so other software can derive meaning
  - We already had systems for organizing data at our desks, so we modeled off of them
 
-<a href="https://www.youtube.com/watch?v=1UtlOgkOGy4"><img src="../files/apple_desktop_2.png" width=300/></a>
-<a href="http://toastytech.com/guis/a2desk.html"><img src="../files/apple_desktop.png" width=300\></a>
+<a href="https://www.youtube.com/watch?v=1UtlOgkOGy4"><img src="../files/apple_desktop_2.png" width="45%"/></a>
+<a href="http://toastytech.com/guis/a2desk.html"><img src="../files/apple_desktop.png" width="45%\></a>
   
 .right[images are links to sources]
 
@@ -280,19 +280,11 @@ Text files still use binary.
 ---
 ## Text files
 
-Lines of human-readable characters, potentially separated into lines
-"Plain"
-- No colors
-- No formatting (italics/bold/etc)
-- No images/media
+Lines of human-readable characters, potentially separated into lines. No colors, no formatting (italics/bold/etc), no images/media.
 
 Writing software (source code) almost always involve manipulating text files.
 
-<a href="https://github.com/petsc/petsc/tree/main"><img src="../files/gmres.png" width=300\></a>
-
---
-
-Easy to manipulate with a wide variety of software
+<a href="https://github.com/petsc/petsc/tree/main"><img src="../files/gmres.png" width="66%" \></a>
 
 ---
 ## Creating and editing text files
@@ -622,9 +614,7 @@ protocol and other proprietary protocols)
 
 You might be familiar with the binary number system:
 
-<img src="../files/joke.png" width=400 />
-
-You can even buy Tshirts with this joke if you like it a lot.
+<img src="../files/joke.png" width="66% />
 
 ---
 
@@ -632,9 +622,9 @@ You can even buy Tshirts with this joke if you like it a lot.
 
 If our memory can store 0s and 1s (think: on/off or up/down), then we can represent an integer in binary:
 
-$719 = 1011001111 = 2^9 + 2^7 + 2^6 + 2^3 + 2^2 + 2^1 + 2^0$
+$$719 = 1011001111 = 2^9 + 2^7 + 2^6 + 2^3 + 2^2 + 2^1 + 2^0$$
 
-10 bits. This number can already not be represented in 8 bits (0, 1, ..., 255). 
+10 bits. This number can already not be represented in 8 bits: 0, 1, ..., 255. 
 
 If you want to represent negative numbers, one bit has to hold the sign, so you are left with -128,-127,...,126,127.
 
@@ -645,11 +635,11 @@ If you want to represent negative numbers, one bit has to hold the sign, so you 
 
 Adding numbers in binary is simple: just carry the ones.
 
-$719 = 1011001111 = 2^9 + 2^7 + 2^6 + 2^3 + 2^2 + 2^1 + 2^0$
+$$ \begin{align*} 719 &= 1011001111 = 2^9 + 2^7 + 2^6 + 2^3 + 2^2 + 2^1 + 2^0 \\
 
-$720 = 1011010000 = 2^9 + 2^7 + 2^6 + 2^4$
+720 &= 1011010000 = 2^9 + 2^7 + 2^6 + 2^4 \end{align*}$$
 
-If all bits are 1s, then you loop around to $000...001$ or something of the sort, which is either a very small or a negative number!
+If all bits are 1s, then you loop around to \\(\000...001\\) or something of the sort, which is either a very small or a negative number!
 
 [Wikipedia](https://en.wikipedia.org/wiki/Integer_overflow) has some examples of integer overflow bugs - from aviation to game consoles.
 
@@ -657,21 +647,21 @@ If all bits are 1s, then you loop around to $000...001$ or something of the sort
 
 ## Representing numbers
 
-This system obviously has its flaws. We need 80 bits to represent the Avogadro constant $6.02214076×10^{23}$ (one holds the sign).
+This system obviously has its flaws. We need 80 bits to represent the Avogadro constant 6.02214076e23 (one holds the sign).
 
 Let's go back to [Float32 (IEEE 754 standard)](https://en.wikipedia.org/wiki/Single-precision_floating-point_format):
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Float_example.svg/590px-Float_example.svg.png" width="60%"\>
 
-$(-1)^{\mathrm{sign}} \times 2^{\mathrm{exponent}} \times 1.{\mathrm{fraction}} $
+$$(-1)^{\mathrm{sign}} \times 2^{\mathrm{exponent}} \times 1.{\mathrm{fraction}} $$
 
 Not all bits are treated equally now: One holds the sign, 8 hold the exponent, and 23 hold the fraction, i.e. the digits after the 1. 
 
-They can represent $\{-1,+1\}$, $\{-126,...,127\}$, $\{1,1+2^{-23},...,2-2^{-23}\}$. Exponents with all ones and all zeros are reserved ($\infty$, NaN, 0).
+They can represent \\(\ \{-1,+1\},\{-126,...,127\}, \{1,1+2^{-23},...,2-2^{-23}\} \\). Exponents with all ones and all zeros are reserved ( \\(\infty$, NaN, 0 \\) ).
 
-The smallest representable number is now $2^{−126} × 2^{−23} \approx 1.4 \times 10^{-45}$.
+The smallest representable number is now \\(\ 2^{−126} × 2^{−23} \approx 1.4 \times 10^{-45} \\).
 
-The smallest number larger than one is $1 + 2^{−23} \approx 1 + 1.2 \times 10^{-7}$.
+The smallest number larger than one is \\(\ 1 + 2^{−23} \approx 1 + 1.2 \times 10^{-7}\\).
 
 Most calculations are done in double or Float64 format.
 
@@ -685,17 +675,22 @@ Input: two bits.
 
 Output: 
 
-$\{0,0\} \mapsto \{ 0, \text{carry } 0\}.$
+$$
+\begin{align*}
 
-$\{0,1\} \mapsto \{ 1, \text{carry } 0\}.$
+\{0,0\} \mapsto \{ 0, \text{carry } 0\}. \\
 
-$\{1,0\} \mapsto \{ 1, \text{carry } 0\}.$
+\{0,1\} \mapsto \{ 1, \text{carry } 0\}. \\
 
-$\{1,1\} \mapsto \{ 0, \text{carry } 1\}.$
+\{1,0\} \mapsto \{ 1, \text{carry } 0\}. \\
 
-Call the two inputs $A, B$ and the output $S, C$. You can translate this to:
+\{1,1\} \mapsto \{ 0, \text{carry } 1\}. \\
 
-$S = A$ or (exclusive!) $B$. $C = A$ and $B$.
+\end{align*} $$
+
+Call the two inputs A, B and the output S, C. You can translate this to:
+
+S = "A or (exclusive!) B". C = "A and B".
 
 If you can build a circuit (or a mechanical system!) that implements "exclusive or" as well as "and", you can add two bits!
 

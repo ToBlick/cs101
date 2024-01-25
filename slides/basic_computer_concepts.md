@@ -129,6 +129,14 @@ Some computers combine parts together
 <a href="https://arstechnica.com/gadgets/2020/11/apple-dishes-details-on-its-new-m1-chip/">ars technica</a>
 
 ---
+## Larger architectures
+
+<img src="./files/greene.png"/>
+<a href="https://sites.google.com/nyu.edu/nyu-hpc/hpc-systems/greene/hardware-specs">NYU High Performance Computing</a>
+
+---
+
+
 
 name: operating_systems
 
@@ -187,11 +195,9 @@ transfer data from disk to memory
 ```python
     lines = in_fd.readlines()
 ```
-```python
-    for line in lines:
-```
 modify the data in memory
 ```python
+    for line in lines:
         line = line.lower()
 ```
 output the data in memory to the screen
@@ -209,8 +215,8 @@ name: desktop_analogy
  - All 0's and 1's, but we organize them using software so other software can derive meaning
  - We already had systems for organizing data at our desks, so we modeled off of them
 
-<a href="https://www.youtube.com/watch?v=1UtlOgkOGy4"><img src="../../content/assets/apple_desktop.png" alt="drawing" width="350"/></a>
-<a href="http://toastytech.com/guis/a2desk.html"><img src="http://toastytech.com/guis/a2calc.gif" width=350\></a>
+<a href="https://www.youtube.com/watch?v=1UtlOgkOGy4"><img src="./files/apple_desktop_2.png" width=300/></a>
+<a href="http://toastytech.com/guis/a2desk.html"><img src="./files/apple_desktop.png" width=300\></a>
   
 .right[images are links to sources]
 
@@ -250,16 +256,6 @@ You'd be surprised howe much of computer science comes down to how to organize d
 
 ---
 
-## Hiding Folders in Modern Operating Systems
-
-Searching for files in folders on a computer is slow
--  "Indexers" make searching for files extremely fast
-
-Modern systems prioritize a search bar to find files
-
-Files and folders still exist underneath
-
----
 
 ## Types of files
 
@@ -279,7 +275,7 @@ Underneath, there are two fundamental kinds of files:
 
 --
 
-Text files still use binary
+Text files still use binary.
 
 ---
 ## Text files
@@ -292,6 +288,8 @@ Lines of human-readable characters, potentially separated into lines
 
 Writing software (source code) almost always involve manipulating text files.
 
+<a href="https://github.com/petsc/petsc/tree/main"><img src="./files/gmres.png" width=300\></a>
+
 --
 
 Easy to manipulate with a wide variety of software
@@ -303,7 +301,7 @@ Multi-platform
 - Visual Studio Code
 - [Vi](https://ex-vi.sourceforge.net/) ( [VIM](www.vim.org) , [NeoVim](neovim.io))
 - [Emacs](gnu.org/software/emacs) 
-- [Sublime Text](sublimetext.com) (free evaluation)
+- [Sublime Text](sublimetext.com)
 - [QtCreator](www.qt.io/product/development-tools)
 
 Windows
@@ -318,8 +316,6 @@ Language-specific
 - [JetBrains](jetbrains.com) products (IntelliJ IDEA, PyCharm, CLion, etc...)
 - [Eclipse](eclipse.org)
 
-... and many more
-
 
 ---
 
@@ -330,8 +326,8 @@ Language-specific
 - Text files follow an encoding for what each character means
 - Commonly:
   - ASCII ('A' = 65 = 1000001, 'B' = 66 = 1000010)
-  - UTF-8
-- Other common encodings (that I haven't personally handled)
+  - UTF-8 (Unicode Transformation Format – 8-bit) (some programming languages allow you to use Unicode characters as variables)
+- Other encodings
   - [link](https://en.wikipedia.org/wiki/Character_encoding#Common_character_encodings)
 - Different computers define new lines differently
   - [link](https://en.wikipedia.org/wiki/Newline#Representation)
@@ -344,17 +340,17 @@ Source Code
 ```java
 class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("hello!");
+        System.out.println("Hello World 🐢!");
     }
 }
 ```
 json
 ```json
 {
-    "class": "CSCI-UA-2022",
-    "professor": "Michael Tao",
-    "building": "GCASL",
-    "room": 275
+    "class": "CSCI-UA-0101-004",
+    "professor": "Tobias Blickhan",
+    "building": "WWH",
+    "room": 312
 }
 ```
 ---
@@ -461,7 +457,7 @@ Or follow whatever <a href="https://en.wikipedia.org/wiki/Naming_convention_(pro
 
 ## File extensions
 
-How does your computer which software opens a file?
+How does your computer know which software opens a file?
 ```bash
 doc.docx
 doc.cpp
@@ -471,7 +467,7 @@ doc.pdf
 
 --
 
-This is all a convention, it's up to software to detect inappropriate files
+This is all a convention, it's up to software to detect inappropriate files.
 
 ```python
 for filename in ["doc.docx", "doc.cpp", "doc.ai", "doc.pdf"]:
@@ -481,13 +477,13 @@ for filename in ["doc.docx", "doc.cpp", "doc.ai", "doc.pdf"]:
 
 --
 
-Computer manages a list of default extensions
+Your computer manages a list of default extensions.
 
 ---
 
 ## File permissions
 
-Computers are all designed by multiple "users"
+Computers are all designed by multiple "users":
 - The computer itself
 - Administrators
 - Normal users
@@ -547,8 +543,8 @@ Software needs some context for how it should run
 - Environment variables
   - Other data that the user or operating system has set
   - Which type of output is available
-  - what encoding data comes in
-  - what other software to use
+  - What encoding data comes in
+  - What other software to use
 
 
 ---
@@ -604,12 +600,10 @@ This input/output relationship is complex due to programs that run in web browse
 
 ---
 
-## The internet vs. the web
+## Different encodings
 
-Just like binary files, html is just one encoding of data
-Internet transfers all sorts of data
-
-
+Just like binary files, html is just one encoding of data.
+Internet transfers all sorts of data:
 
 - ([IMAP](http://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)
 and [POP](http://en.wikipedia.org/wiki/Post_Office_Protocol) protocols),
@@ -622,14 +616,100 @@ streaming media such as webcams and internet radio, and
 protocol and other proprietary protocols)
 - etc
 
+---
+
+## Representing numbers
+
+You might be familiar with the binary number system:
+
+<img src="./files/joke.png" width=400 />
+
+You can even buy Tshirts with this joke if you like it a lot.
+
+---
+
+## Representing numbers
+
+If our memory can store 0s and 1s (think: on/off or up/down), then we can represent an integer in binary:
+
+$719 = 1011001111 = 2^9 + 2^7 + 2^6 + 2^3 + 2^2 + 2^1 + 2^0$
+
+10 bits. This number can already not be represented in 8 bits (0, 1, ..., 255). 
+
+If you want to represent negative numbers, one bit has to hold the sign, so you are left with -128,-127,...,126,127.
+
+
+---
+
+## Representing numbers
+
+Adding numbers in binary is simple: just carry the ones.
+
+$719 = 1011001111 = 2^9 + 2^7 + 2^6 + 2^3 + 2^2 + 2^1 + 2^0$
+
+$720 = 1011010000 = 2^9 + 2^7 + 2^6 + 2^4$
+
+If all bits are 1s, then you loop around to $000...001$ or something of the sort, which is either a very small or a negative number!
+
+[Wikipedia](https://en.wikipedia.org/wiki/Integer_overflow) has some examples of integer overflow bugs - from aviation to game consoles.
+
+---
+
+## Representing numbers
+
+This system obviously has its flaws. We need 80 bits to represent the Avogadro constant $6.02214076×10^{23}$ (one holds the sign).
+
+Let's go back to [Float32 (IEEE 754 standard)](https://en.wikipedia.org/wiki/Single-precision_floating-point_format):
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Float_example.svg/590px-Float_example.svg.png" width="60%"\>
+
+$(-1)^{\mathrm{sign}} \times 2^{\mathrm{exponent}} \times 1.{\mathrm{fraction}} $
+
+Not all bits are treated equally now: One holds the sign, 8 hold the exponent, and 23 hold the fraction, i.e. the digits after the 1. 
+
+They can represent $\{-1,+1\}$, $\{-126,...,127\}$, $\{1,1+2^{-23},...,2-2^{-23}\}$. Exponents with all ones and all zeros are reserved ($\infty$, NaN, 0).
+
+The smallest representable number is now $2^{−126} × 2^{−23} \approx 1.4 \times 10^{-45}$.
+
+The smallest number larger than one is $1 + 2^{−23} \approx 1 + 1.2 \times 10^{-7}$.
+
+Most calculations are done in double or Float64 format.
+
+---
+
+## How does a computer actually compute?
+
+At the lowest level: how do we add two bits?
+
+Input: two bits.
+
+Output: 
+
+$\{0,0\} \mapsto \{ 0, \text{carry } 0\}.$
+
+$\{0,1\} \mapsto \{ 1, \text{carry } 0\}.$
+
+$\{1,0\} \mapsto \{ 1, \text{carry } 0\}.$
+
+$\{1,1\} \mapsto \{ 0, \text{carry } 1\}.$
+
+Call the two inputs $A, B$ and the output $S, C$. You can translate this to:
+
+$S = A$ or (exclusive!) $B$. $C = A$ and $B$.
+
+If you can build a circuit (or a mechanical system!) that implements "exclusive or" as well as "and", you can add two bits!
+
+You can then chain these elements together to add more bits (have to consider carried bits as inout now!).
 
 ---
 
 ## Conclusion
 
-An idea for how components of a computer operate
+An idea for how components of a computer operate.
 
-A more general view of what files on a computer are
+A more general view of what files on a computer are.
 
-A brief overview of the internet connections
+A brief overview of the internet connections.
+
+A little excursion into number representation.
 

@@ -37,12 +37,6 @@ name: computers-1
 
 ## Definition
 
-> "[People don't have buttons and a computer does](http://www.youtube.com/watch?v=kccWna71sqk)"
->
-> -Some little kid from PS-272 in Brooklyn in the 1980s
-
---
-
 A computer is any device, entity, or object that can perform computations.
 
 --
@@ -410,14 +404,14 @@ Byte code is somewhere between machine code and high-level source in abstraction
 
 --
 
-- Any programaming language that can be compiled Java byte code can run in a JVM... Groovy, Kotlin, and Scala are popular high-level languages with different syntax from Java that take advantage of this.
+- Any programaming language that can be compiled to Java byte code can run in a JVM... Groovy, Kotlin, and Scala are popular high-level languages with different syntax from Java that take advantage of this.
 
 ---
 
 template: java
 name: java-13
 
-## Byte code and the JVM
+## Fun fact
 
 When viewed as hexadecimal, all byte code files start with the text, `cafe babe` - this is a [magic number](https://en.wikipedia.org/wiki/Magic_number_%28programming%29).
 
@@ -435,7 +429,7 @@ One of Java's inventors, James Gosling, has [explained the origin of this](http:
 
 template: java
 
-## commands
+## Commands
 
 The `javac` command compiles Java source code into Java byte code, while the `java` command sends the Java byte code to the JVM's interpreter for execution.
 
@@ -460,7 +454,3 @@ name: conclusions
 --
 
 You now have a basic understanding of compiling, interpreting, and how the Java paradigm fits into these schemes.
-
---
-
-- Thank you. Bye.

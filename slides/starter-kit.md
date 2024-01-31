@@ -93,7 +93,7 @@ template: assumptions
 - Never use TextEdit on OS X to edit code.
 - Never use Notepad on Windows to edit code.
 - Do not use Microsoft Word or Google Docs to edit code
-- Beware of Emacs, lest you find yourself forever dreaming of keyboard shortcuts.
+- A good text editor allows you to use (and set) keyboard shortcuts. E.g. on Mac: Command+Shift+L in Sublime Text or Command+Option in Visual Studio Code to edit several lines at once.
 
 ---
 
@@ -103,7 +103,7 @@ template: assumptions
 
 Emacs is a plain text editor that can be run from the command line. Vim is another.
 
-If you want to have the most fun with the \*NIX command line, use Emacs instead of Sublime Text or Visual Studio Code.
+[Sublime Text](https://www.sublimetext.com/docs/command_line.html) and [Visual Studio Code](https://code.visualstudio.com/docs/editor/command-line) can do this too, but you might have to set it up.
 
 ---
 
@@ -116,7 +116,20 @@ Emacs functionality depends upon a lot of keyboard shortcut combinations. The fo
 - `Ctrl-x Ctrl-s` to save a file
 - `Ctrl-x Ctrl-c` to quit emacs
 
-Learn more shortcuts with an [emacs cheat sheet](https://duckduckgo.com/?q=emacs+cheat+sheet&t=brave&ia=cheatsheet&iax=1).
+Learn more shortcuts with an [emacs cheat sheet](https://duckduckgo.com/?q=emacs+cheat+sheet).
+
+---
+
+template: assumptions
+
+## Vim shortcuts
+
+The same applies for Vim, e.g.
+
+- `:wq` to write your edits into a file, then quit
+- `:q!` to force quit (without saving)
+
+Again, refer to a [cheat sheet](https://duckduckgo.com/?q=vim+cheat+sheet).
 
 ---
 
@@ -790,5 +803,3 @@ name: conclusions
 We can now use the command line to write and compile Java source code into Java byte code and then execute that byte code using the JVM interpreter. We also understand a bit about data types in Java.
 
 --
-
-- Thank you. Bye.

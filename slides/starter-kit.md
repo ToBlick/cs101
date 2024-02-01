@@ -387,7 +387,7 @@ template: input
 
 ## Scanner weirdness
 
-Using any of the functions besides `nextLine()` creates complication. For example:
+Using any of the functions besides `nextLine()` creates complication.
 
 ```java
 package edu.nyu.cs.fb1258;
@@ -402,7 +402,6 @@ public class LookHowGreatJavaIs {
 		// get user's name
 		System.out.println("Please enter your name: ");
 		String name = scnr.nextLine(); // a String
-		// print out a friendly welcome message
 		System.out.println("Welcome, " +  name + "! You are " + ageAsInt/7 + " years old in dog years!");
 		scnr.close(); // close the Scanner to conserve resources
 	}

@@ -253,8 +253,6 @@ name: switch-case-5
 
 ## Example
 
-Imagine a program that recommends how to dress.
-
 ![UML activity diagram for weather program](../files/selections_switch_weather.png)
 
 ---
@@ -352,7 +350,3 @@ name: conclusions
 --
 
 You now have a basic understanding of UML activity diagrams, if/else if/else statements, and switch/case statements.
-
---
-
-- Thank you. Bye.

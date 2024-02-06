@@ -583,8 +583,8 @@ str.append("goodbye");
 str.append("foo");
 str.append("world!");
 str.delete(7,10); // remove the characters at index positions 7-9, i.e. "foo"
-str.insert(" ", 7); // insert a space at index position 7
-str.replace(0, 7, "hello"); // replaces the characters at index positions 0-6 (i.e. "goodbye) with "hello"
+str.insert(7," "); // insert a space at index position 7
+str.replace(0,7,"hello"); // replaces the characters at index positions 0-6 (i.e. "goodbye) with "hello"
 String result = str.toString(); // -> "hello world!";
 System.out.println(result);
 ```
@@ -776,9 +776,9 @@ template: data-types
 
 ## Converting data types
 
-Use **exception handline** to handle any problems encountered while attempting to convert one data type to another.
+Use **exception handling** to handle any problems encountered while attempting to convert one data type to another.
 
-```
+```java
 String aString = "foo bar baz bum"; //  a string that has no obvious int equivalent
 
 try{

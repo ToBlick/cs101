@@ -18,7 +18,7 @@ public class Conversions {
         System.out.println("big == " + big);             // 1234567890
         System.out.println("approxbig == " + approxbig); // 1.23456794E9
         System.out.println("(int) approxbig - big == " + ((int) approxbig - big)); // 46
-        // -> conversion is done automatically, but still loses information because values of type float are not precise to nine significant digits 
+        // -> still loses information because values of type float are not precise to nine significant digits 
 
         byte b = 100;
         System.out.println("(byte) (b*10)  == " + (byte) (b*10)); // -24

@@ -36,7 +36,7 @@ Upon completing this course, students will be familiar with some of the foundati
 Tobias Blickhan 
 <br />tobias.blickhan@nyu.edu<br />
 WWH 402 <br />
-Office hours: Tuesdays 4 to 5PM and Thursdays 1 to 2PM
+Office hours: Thursdays 1 to 2PM
 
 ## Getting help
 

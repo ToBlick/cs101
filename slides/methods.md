@@ -53,6 +53,38 @@ Methods are modular reusable blocks of code.
 
 ---
 
+## Why methods?
+
+--
+
+- methods allow us to split a large program into manageable (read: small) sub-problems - "divide and conquer".
+
+--
+
+- modular code is easier to read.
+
+--
+
+- modular code is re-usable code.
+
+--
+
+- modular code is easier to write and debug.
+
+---
+
+## Method abstraction
+
+--
+
+- A user (e.g. you) can use a method without knowing its implementation. The only thing the user needs to know is the methods signature (how to call it) and return type.
+
+--
+
+- If the implementation changes "behind the scenes", the user does not need to modify their code that builds on the method (as long as the signature did not change).
+
+--
+
 name: simple
 
 # Simple Methods
@@ -72,6 +104,22 @@ public static void doSomething1() {
     System.out.println("Exiting  doSomething1");
 }
 ```
+
+--
+
+## Defining methods
+
+Methods are comprised of a header and a body. Syntax:
+
+```java
+modifiers returnType methodName(parameters) {
+    [...] // stuff happens here
+    return result;
+}
+```
+
+The `returnType` can be any data type or `void` (i.e. the method does not return a value).
+
 
 ---
 
@@ -153,6 +201,58 @@ public static void doSomething1(int x) {
 }
 ```
 
+
+--
+
+## Arguments
+
+Arguments are passed by value. Their value gets copied to variables that are specific to that method.
+
+--
+
+```java
+public static void addOne(int x) {
+    x++; // increment x
+}
+public static void main(String[] args) {
+    int i = 1;
+    addOne(i);
+    System.out.println("i is " + i); // i is 1
+}
+```
+
+--
+
+## Arguments
+
+--
+
+This naming can be confusing, since the value of an array variable is (essentially) its address in memory:
+
+```java
+    public static void addOne(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            array[i]++;
+        }
+    }
+
+    public static void printarray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+        }
+        System.out.print("\n");
+    }
+
+    public static void main(String[] args) {
+        int[] array = {1,2,3};
+        printarray(array);   // prints 123
+        addOne(array);
+        printarray(array);  // prints 234
+    }
+```
+
+We will discuss this further in the coming weeks.
+
 ---
 
 name: return
@@ -222,6 +322,41 @@ public static void foo(String bar, boolean baz) {
 
 ---
 
+# Documentation
+
+--
+
+Javadoc allows us to write documentation so users understand what our methods do. Take the following example:
+
+```java
+
+/**
+ * Computing the square root with Heron's method.
+ * @param x a strictly positive number.
+ * @return the square root of x.
+ */
+public double myRoot(double x) {
+	if (x == 0.0) {
+        return x;
+    } else if (x < 0.0) {
+		System.out.println("Error: Negative number entered.");
+		return 0.0; 
+        // this is not ideal but we will discuss exception handling later
+	}
+	int max_it = 10;
+	double s = 0.5 * x;
+	for (int i = 1; i <= max_it; i++) {
+		s = 0.5 * (s + x/s);
+	}
+    return s;
+}
+
+```
+
+--
+
+---
+
 name: conclusions
 
 # Conclusions
@@ -231,5 +366,3 @@ name: conclusions
 You now have a basic understanding of methods in Java.
 
 --
-
-- Thank you. Bye.

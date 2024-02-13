@@ -320,5 +320,3 @@ name: conclusions
 You now have a basic understanding of for loops, while loops, and a few common tasks performed by each.
 
 --
-
-- Thank you. Bye.

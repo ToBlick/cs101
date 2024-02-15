@@ -83,7 +83,7 @@ Methods are modular reusable blocks of code.
 
 - If the implementation changes "behind the scenes", the user does not need to modify their code that builds on the method (as long as the signature did not change).
 
---
+---
 
 name: simple
 
@@ -105,7 +105,7 @@ public static void doSomething1() {
 }
 ```
 
---
+---
 
 ## Defining methods
 
@@ -353,7 +353,9 @@ public double myRoot(double x) {
 
 ```
 
---
+---
+
+<img src="../files/javadocs.png"/>
 
 ---
 

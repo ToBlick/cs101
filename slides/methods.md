@@ -201,8 +201,7 @@ public static void doSomething1(int x) {
 }
 ```
 
-
---
+---
 
 ## Arguments
 
@@ -221,7 +220,7 @@ public static void main(String[] args) {
 }
 ```
 
---
+---
 
 ## Arguments
 

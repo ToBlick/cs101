@@ -430,26 +430,6 @@ System.out.println(Arrays.toString(veggies));
 
 ---
 
-template: challenges
-
-## Solution: Use Apache Commons Lang's ArrayUtiles
-
-A second solution to the problem of "adding" elements to an existing array is to use [Apache Commons Lang](https://commons.apache.org/proper/commons-lang/)'s `ArrayUtils` class.
-
-- This requires first downloading and installing the Commons Lang library `.jar` file into a project's dependencies directory (often the `lib` directory) and then importing it using `import org.apache.commons.lang3.ArrayUtils;`
-
-```java
-int[] fibb = {0, 1, 2, 3, 5, 8};
-fibb = ArrayUtils.add(fibb, 13);
-System.out.println(Arrays.toString(fibb)); // outputs "[0, 1, 2, 3, 5, 8, 13]"
-```
-
---
-
-- Note that this technique only works with arrays of primitive data types.
-
----
-
 name: arraylist
 
 # ArrayList Class
@@ -563,8 +543,6 @@ name: pass-by-value-3
 
 ## Passing value types as arguments to methods
 
-Take the following example:
-
 ```java
 public static void doSomething(int x) {
     x = 10;
@@ -572,11 +550,9 @@ public static void doSomething(int x) {
 public static void main(String[] args) {
     int x = 5;
     doSomething(x); // the value 5 is passed to the function
-    System.out.println(x);
+    System.out.println(x); // 5
 }
 ```
-
-The output of the above program is `5`, since the local variable within the main function is never reassigned to refer to anything other than 5.
 
 - `doSomething()` is invoked and passed a copy of the value `5` (the value the main function's local variable `x`).
 - `doSomething()` creates its own local parameter variable `x` which refers to this value, `5`.
@@ -599,11 +575,9 @@ public static void doSomething(int[] x) {
 public static void main(String[] args) {
     int x[] = {5, 10, 15, 20};
     doSomething(x); // the memory address of the array is passed to the function
-    System.out.println( Arrays.toString(x) );
+    System.out.println( Arrays.toString(x) ); // [ 5, 10, 15, 20 ]
 }
 ```
-
-The output of the above program is `[ 5, 10, 15, 20 ]`, since the local variable within the main function is never reassigned to refer to anything other than that array, and that array has never had its contents modified.
 
 - `doSomething()` is invoked and passed a copy of the memory address of the array referred to by the main method's variable `x` (the "value" the main function's local variable `x`).
 - `doSomething()` creates its own local parameter variable `x` which refers to this "value" - the memory address of that array.
@@ -638,7 +612,7 @@ public static void doSomething(int[] x) {
 public static void main(String[] args) {
     int x[] = {5, 10, 15, 20};
     doSomething(x); // the memory address of the array is passed to the function
-    System.out.println( Arrays.toString(x) );
+    System.out.println( Arrays.toString(x) ); // [ 5, 10, 555, 20 ]
 }
 ```
 
@@ -669,5 +643,3 @@ name: conclusions
 You now have a basic understanding of arrays in Java.
 
 --
-
-- Thank you. Bye.

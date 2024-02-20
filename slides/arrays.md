@@ -553,7 +553,6 @@ public static void main(String[] args) {
     System.out.println(x); // 5
 }
 ```
-
 - `doSomething()` is invoked and passed a copy of the value `5` (the value the main function's local variable `x`).
 - `doSomething()` creates its own local parameter variable `x` which refers to this value, `5`.
 - `doSomething()` reassigns its local variable `x` to refer to `10` instead.

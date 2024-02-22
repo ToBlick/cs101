@@ -22,6 +22,8 @@ Intro to Computer Science
 1. [Methods](#methods)
 1. [arrays](#arrays)
 
+Note: All content we covered is relevant for the exam, this is just a selection of topics.
+
 ---
 
 
@@ -278,27 +280,27 @@ name: branching
 
 # Branching
 
+- Activity diagrams
 
+--
 
 - `if` `else`
 ```java
-if(CONDITION) {
-} else if(CONDITION2) {
+if (CONDITION) {
+} else if (CONDITION2) {
 } else {
 }
 ```
+---
 
---
+# Branching
 
 - `switch/case`
 
 ```java
-switch(VALUE) {
+switch (VALUE) {
     case CASE0: 
       f(); 
-      break;
-    case CASE1: 
-      g(); 
       break;
     case CASE2:
       // fallthrough
@@ -307,7 +309,7 @@ switch(VALUE) {
       break;
 }
 
-switch(VALUE) {
+switch (VALUE) {
     case CASE0: return 0;
     case CASE1: return 1;
 }
@@ -326,8 +328,8 @@ name: loops
 
 ```java
 bool flag = true;
-while(flag) {
-    if(CONDITION) {
+while (flag) {
+    if (CONDITION) {
       flag = false
     }
 }
@@ -336,7 +338,7 @@ while(flag) {
 
 ```java
 int counter = 0;
-while(counter < 45) {
+while (counter < 45) {
     ++counter;
 }
 ```
@@ -346,7 +348,7 @@ while(counter < 45) {
 - `for`
 
 ```java
-for(int i = 0; i < n; i++) {
+for (int i = 0; i < n; i++) {
   // ...
 }
 ```
@@ -399,38 +401,4 @@ char[] arr2 = {'h','e','l','l','o'};
 
 ```java
 arr.sort();
-```
-
----
-
-name: arrays
-
-# ArrayList
-
---
-
-- Initialization
-
-```java
-ArrayList<String> arr = new ArrayList<String>();
-arr.add("words");
-arr.add("and");
-```
-
---
-
-- Access
-
-```java
-arr.get(2);
-arr.get(arr.size()-1);
-```
-
---
-
-- To normal array
-
-```java
-String[] normalArr;
-String[] normalArr = arr.toArray(normalArr);// weird pattern
 ```

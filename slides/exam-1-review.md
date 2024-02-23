@@ -228,7 +228,7 @@ public class Midterm {
 - Compile with `javac`
 --
 
-- Produces `Midterm.java`
+- Produces `Midterm.class`
 --
 
 - Run with `java Midterm`

@@ -340,5 +340,3 @@ name: conclusions
 You now have a basic understanding of multidimensional arrays - especially two-dimensional arrays - in Java.
 
 --
-
-- Thank you. Bye.

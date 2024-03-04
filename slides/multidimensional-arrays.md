@@ -240,7 +240,7 @@ Using `for` loop syntactic sugar.
 
 ```java
 // iterate through each row in the outer array
-for (String[] row : naughtsAndCrosses ) {
+for (String[] row : naughtsAndCrosses) {
 
     // print out the row
     System.out.println( Arrays.toString(row) );
@@ -255,7 +255,7 @@ name: rows-columns-3
 
 ## Looping through rows with a counter
 
-If you insist on using an accumulator-style `for` loop, that also works, of course.
+Using an accumulator-style `for` loop, that also works, of course.
 
 Using `for` loop accumulator syntax.
 
@@ -305,7 +305,7 @@ for (String[] row : naughtsAndCrosses ) {
 template: rows-columns
 name: rows-columns-5
 
-## Looping through each column within each row (the hard way)
+## Looping through each column within each row
 
 The same can be done without syntactic sugar
 
@@ -328,6 +328,39 @@ for ( int i=0; i<naughtsAndCrosses.length; i++ ) {
 
 }
 ```
+
+---
+
+
+template: rows-columns
+name: rows-columns-5
+
+## Two ways of looping through a 2D array
+
+```java
+int[][] a = new int[n][m];
+
+for (int i=0; i<n; i++) {
+    for (int j=0; j<m; j++) {
+        a[i][j] = doSomething();
+    }
+}
+
+for (int j=0; j<m; j++) {
+    for (int i=0; i<n; i++) {
+        a[i][j] = doSomething();
+    }
+}
+```
+
+For $10^8$ elements, this takes 30 and 940ms, respectively. Why?
+
+In Java, the notation `a[i][j]`hints at what is going on behind the scenes. In other
+languages, this element is accessed with `a[i,j]` or `a(i,j)` and the matter is less clear.
+
+One can divide programming languages or their standard libraries that support multi-dimensional arrays into two groups: row-major (C, numpy) or column-major (e.g. Fortran, MATLAB, BLAS, LAPACK). 
+
+Java is not really row-major, since the rows themselves are not stored contingously.
 
 ---
 

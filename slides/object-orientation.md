@@ -79,7 +79,7 @@ name: concept-digression
 
 ## Digression
 
-In the 5th century, B.C., the astonishingly brilliant philsopher, Plato, described what we now call the [Theory of Forms](https://philosophynow.org/issues/90/Plato_A_Theory_of_Forms).
+In the 5th century, B.C., Plato described what we now call the [Theory of Forms](https://philosophynow.org/issues/90/Plato_A_Theory_of_Forms).
 
 --
 
@@ -97,9 +97,6 @@ In the 5th century, B.C., the astonishingly brilliant philsopher, Plato, describ
 
 - But we cannot **encounter** forms directly, only through the objects that embody them, however imperfectly.
 
---
-
-- It took us only 2.5 thousand years to begin to code in that direction.
 
 ---
 
@@ -154,18 +151,7 @@ The black box approach transcends any one discipline. For example, it was popula
 
 --
 
-- A pioneer of this movement was [B.F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner), who purportedly raised his own children in literal black boxes!
-
----
-
-template: black-box
-name: black-box-2c
-
-## Digression (continued)
-
-The "Skinner Box":
-
-![Skinner box](../files/oop-skinner-box.jpg)
+- A pioneer of this movement was [B.F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner), who, incidentally, is well known for experiments involving rats in boxes.
 
 ---
 
@@ -524,7 +510,7 @@ dog1.age = 10;
 
 Dog dog2 = new Dog();
 // the following won't work, since the Dog's properties are all private
-dog2.name = "Tobik";
+dog2.name = "Rin Tin Tin";
 dog2.breed = "German Shepherd";
 dog2.age = 3;
 ```
@@ -548,7 +534,7 @@ We would like to be able to do something like this:
 
 ```java
 Dog dog1 = new Dog("Fido", "Bugle", 10);
-Dog dog2 = new Dog("Tobik", "German Shepherd", 3);
+Dog dog2 = new Dog(" Rin Tin Tin", "German Shepherd", 3);
 ```
 
 --
@@ -658,14 +644,14 @@ dog1.bark(); // outputs "Fido says, 'Woof!' "
 
 --
 
-Whereas, if we were to call that method on a dog named Tobik, then Tobik's name would be output.
+Whereas, if we were to call that method on a dog named  Rin Tin Tin, then  Rin Tin Tin's name would be output.
 
 ```java
 Dog dog2 = new Dog("Fido", "Bugle", 10);
 
 //...
 
-dog2.bark(); // outputs "Tobik says, 'Woof!' "
+dog2.bark(); // outputs " Rin Tin Tin says, 'Woof!' "
 ```
 
 ---
@@ -681,10 +667,8 @@ With constructor functions, we can instantiate as many objects as we like with w
 
 ```java
 Dog dog1 = new Dog("Fido", "Bugle", 10);
-Dog dog2 = new Dog("Tobik", "German Shepherd", 3);
+Dog dog2 = new Dog(" Rin Tin Tin", "German Shepherd", 3);
 ```
-
-[Try it](https://repl.it/repls/AcidicOrangeredProcess)
 
 ---
 
@@ -713,8 +697,6 @@ for (int i=0; i<dogs.length; i++) {
 
 }
 ```
-
-[Try it!](https://repl.it/repls/ExtraneousAdolescentConnection)
 
 ---
 
@@ -999,7 +981,7 @@ Every time we instantiate a new `Dog` object, the counter will be incremented.
 
 ```java
 Dog dog1 = new Dog("Fido", "Bugle", 10);
-Dog dog2 = new Dog("Tobik", "German Shepherd", 3);
+Dog dog2 = new Dog(" Rin Tin Tin", "German Shepherd", 3);
 ```
 
 --
@@ -1015,8 +997,6 @@ Dog dog2 = new Dog("Tobik", "German Shepherd", 3);
 ```java
 System.out.printf( "There exist %d dogs in our world.\n", Dog.getNumDogs() );
 ```
-
-[Try it!](https://repl.it/repls/FirsthandUnlawfulPaint)
 
 ---
 
@@ -1068,7 +1048,7 @@ template: comparisons
 
 ## Objects as reference types
 
-Because objects are reference types, when they are passed as arguments to a method, the memory address is what is passed.
+When Objects are arguments to a method, the memory address is what is passed.
 
 --
 
@@ -1144,32 +1124,6 @@ if ( dog1.equals(dog2) ) {
 
 ---
 
-template: comparisons
-
-## EqualsBuilder
-
-Since object's properties are often of many different types, writing a custom [].equals()](#tedium) method must be done carefully and tediously. Fortunately, [Apache Commons Lang](https://commons.apache.org/proper/commons-lang/)'s `EqualsBuilder` class can make object comparisons easier and less prone to silly errors.
-
-```java
-public class Dog {
-        //...
-
-        public boolean equals(Dog that) {
-            return new EqualsBuilder()
-                            .append(this.name, that.name)
-                            .append(this.age, that.age)
-                            .append(this.breed, that.breed)
-                            .append(this.weight, that.weight)
-                            .isEquals();
-        }
-        //...
-```
-
-- To use `EqualsBuilder`, Commons Lang's main `.jar` file must be downloaded and added as a project dependency, for example by placing it within a project's `lib` directory.
-- The library must then be imported with `import org.apache.commons.lang3.SystemUtils;`.
-
----
-
 name: stringification
 
 # Stringification
@@ -1184,11 +1138,9 @@ Converting an object to a String usually leads to unwanted text.
 
 ```java
 // instantiate a Dog object
-Dog dog2 = new Dog("Tobik", "German Shepherd", 3);
-
+Dog dog2 = new Dog(" Rin Tin Tin", "German Shepherd", 3);
 // do something that requires the object to be converted to a String
 String text = String.format("The dog as a string looks like: %s", dog2);
-
 // see what you get...
 System.out.println(text);
 ```
@@ -1196,7 +1148,6 @@ System.out.println(text);
 --
 
 By default, the output would show the **class** name of the object and a **[hashcode](https://coderanch.com/t/321515/java/HashCode)** - random-looking text that is not probably what you hoped for.
-[Try it!](https://repl.it/repls/MysteriousNormalLoaderprogram)
 
 ```
 The dog as a string looks like: Dog@63961c42
@@ -1207,7 +1158,7 @@ The dog as a string looks like: Dog@63961c42
 Wouldn't it be nice if we could instead output something descriptive, like,
 
 ```
-The dog as a string looks like: Tobik, a 3-year-old German Shepherd
+The dog as a string looks like:  Rin Tin Tin, a 3-year-old German Shepherd
 ```
 
 ---
@@ -1236,10 +1187,8 @@ public class Dog {
 Now, converting the object to a String will result in something more descriptive, such as:
 
 ```
-Tobik, a 3-year-old German Shepherd
+ Rin Tin Tin, a 3-year-old German Shepherd
 ```
-
-[Try it!](https://repl.it/repls/UnusualDistantPostscript)
 
 ---
 
@@ -1251,7 +1200,7 @@ name: pillars
 
 ## Concept
 
-No university course would pass the censors unless it mentioned at least one set of immutable laws students must memorize despite their better judgment.
+No university course can exist unless it mentioned at least one set of immutable laws students must memorize despite their better judgment.
 
 --
 
@@ -1417,6 +1366,3 @@ name: conclusions
 
 You now have a basic understanding of object-oriented programming in Java. Well done.
 
---
-
-- Thank you. Bye.

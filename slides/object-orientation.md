@@ -100,27 +100,6 @@ In the 5th century, B.C., Plato described what we now call the [Theory of Forms]
 
 ---
 
-template: overview
-name: overview-2
-
-## Understand this: it's imperative!
-
-Object-oriented programming is a variety of **imperative programming**.
-
---
-
-- With imperative programming, we instruct the computer **how** to solve the tasks.
-
---
-
-- Programs make heavy use of memory and **control flow**: loops, conditional statements with branching, and so on, to establish the sequence of steps necessary to solve the problem.
-
---
-
-- An alternative to imperative programming would be **declarative programming**, where a desired end goal is declared, but the implementation details of how to achieve it are not. **SQL** is an example of a declarative language.
-
----
-
 name: black-box
 
 # Black Box Metaphor

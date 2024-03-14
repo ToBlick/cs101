@@ -626,7 +626,7 @@ dog1.bark(); // outputs "Fido says, 'Woof!' "
 Whereas, if we were to call that method on a dog named  Rin Tin Tin, then  Rin Tin Tin's name would be output.
 
 ```java
-Dog dog2 = new Dog("Fido", "Bugle", 10);
+Dog dog2 = new Dog("Rin Tin Tin", "German Shepherd", 10);
 
 //...
 
@@ -1027,7 +1027,7 @@ template: comparisons
 
 ## Objects as reference types
 
-When Objects are arguments to a method, the memory address is what is passed.
+When Objects are method arguments, the memory address is passed.
 
 --
 

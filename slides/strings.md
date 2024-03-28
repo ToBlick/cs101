@@ -148,7 +148,7 @@ Even if you don't define a `.toString()` method in your custom classes, one exis
 
 --
 
-- How does this work?!
+- How does this work?
 
 --
 
@@ -285,23 +285,23 @@ The Character class is a _wrapper class_, used to do processing and analysis of 
 
 --
 
-- `x.equals('m')` -> true, of course
+- `x.equals('m')` -> true
 
 --
 
-- `Character.isDigit(a[3])` -> false, of course
+- `Character.isDigit(x)` -> false
 
 --
 
-- `Character.isLetter(a[3])` -> true, of course
+- `Character.isLetter(x)` -> true
 
 --
 
-- `Character.toUpperCase(a[3])` -> 'L'
+- `Character.toUpperCase(x)` -> 'M'
 
 --
 
-- `Character.isUpperCase(a[3])` -> false
+- `Character.isUpperCase(x)` -> false
 
 ---
 
@@ -477,7 +477,3 @@ name: conclusions
 --
 
 You now have increased your knowledge of the String and related classes as examples of typical object-oriented Java classes.
-
---
-
-- Thank you. Bye.

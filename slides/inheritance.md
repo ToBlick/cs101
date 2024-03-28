@@ -67,7 +67,7 @@ Inheritance was first implemented in Norway in 1969 for [Simula](https://en.wiki
 
 - Garbage collection
 
---
+---
 
 template: overview
 

@@ -381,7 +381,7 @@ It is often desireable to have child classes implement the instance methods defi
 super.getMessage();
 ```
 
---
+---
 
 
 name: difference
@@ -482,8 +482,7 @@ for (A myObj : myObjects) {
 }
 ```
 
---
-
+---
 
 template: difference
 
@@ -512,8 +511,7 @@ for (A myObj : myObjects) {
 }
 ```
 
---
-
+---
 
 name: composition
 

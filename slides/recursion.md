@@ -111,10 +111,6 @@ public static int fibonacci(int n) {
 }
 ```
 
---
-
-- [Try it!](https://repl.it/repls/SandyCheerfulQuark)
-
 ---
 
 template: fibonacci
@@ -180,10 +176,6 @@ public static String backwards(String original) {
 
 }
 ```
-
---
-
-- [Try it!](https://repl.it/repls/UnselfishWorstBoastmachine)
 
 ---
 
@@ -314,27 +306,22 @@ And let's revisit the backwards string algorithm.
 
 ```java
 public static String backwards(String original) {
-
     // base case: return the original
     if (original.length() <= 1) {
       return original;
     }
-
     // recursive case: return the last character + the backwards of the remainder
     else {
       char lastChar = original.charAt(original.length() - 1);
       String remainder = original.substring(0, original.length() - 1);
       return lastChar + backwards(remainder);
     }
-
 }
 ```
 
 --
 
 - the _base case_ occurs when the length is 1 or 0, we return the original.
-
---
 
 - the _recursive case_ decomposes the problem and returns a value resulting, in part, from recursion.
 
@@ -434,6 +421,26 @@ Perhaps the most famous fractal images are those derived from the [Mandelbrot se
 
 ---
 
+name: examples
+
+# Examples you have seen before
+
+- The function from the Collatz conjecture of midterm one can be defined recursively.
+- Quicksort, shown in the lecture on arrays, is a recursive algorithm.
+- The greatest common denominator method from the Numbers class.
+
+```java
+  private int gcd(int a, int b) {
+      if (b == 0) {
+          return a;
+      }
+      return gcd(b, a % b);
+  }
+```
+
+
+---
+
 name: conclusions
 
 # Conclusions
@@ -442,6 +449,3 @@ name: conclusions
 
 Recursion takes some time to get familiar with. However, it can some problems that are inherently recursive in a more intuitive way, with simpler code, than other forms of iteration.
 
---
-
-- Thank you. Bye.

@@ -189,7 +189,7 @@ public void doSomething() {
 
 --
 
-- This code will not compile. [See for yourself!](https://repl.it/repls/FittingSnoopyOpenlook)
+- This code will not compile.
 
 --
 
@@ -227,9 +227,6 @@ public void doSomething() {
 }
 ```
 
---
-
-- [Try it!](https://repl.it/repls/CrispExtrasmallOutsourcing)
 
 ---
 
@@ -314,7 +311,6 @@ public void anotherMethod() {
 ```
 
 --
-[Try it!](https://repl.it/repls/AshamedBurdensomeEquation)... - or - [try this](https://repl.it/repls/SerpentineSecondhandObjectdatabase):...
 
 ```java
 // the throws way
@@ -387,10 +383,6 @@ public class Person {
 
 --
 
-- [Try it!](https://repl.it/repls/MixedRepentantLocations)
-
---
-
 - Note that the method must declare, with the `throws` keyword, that it _might_ throw an exception.
 
 --
@@ -452,10 +444,6 @@ catch (OutOfCoffeeException e) {
 
 --
 
-- [Try it!](https://repl.it/repls/WatchfulSqueakyProduct)
-
---
-
 - Notice that we can catch the two exceptions separately, allowing us to take different follow-up actions in each scenario.
 
 ---
@@ -481,15 +469,100 @@ public static void main(String[] args) throws BurnedMouthException, OutOfCoffeeE
 
 --
 
-- [Try it!](https://repl.it/repls/MagentaSameLanguage)
-
---
-
 - Notice that this code compiles, even though we never fully handle the exceptions with a `try`/`catch` block.
 
 --
 
 - The compiler ignores any exceptions thrown by the `main` method.... but the program crashes during runtime.
+
+---
+
+name: why-bother
+
+# Why bother?
+
+--
+
+Consider this pseudo-code:
+
+```
+readFile {
+    open the file;
+    determine its size;
+    allocate that much memory;
+    read the file into memory;
+    close the file;
+}
+```
+
+--
+
+On every line, something can go wrong. The file might not exist, have indefinite size, no memory might be available, ...
+
+---
+
+name: manual
+
+# One option
+
+--
+
+To avoid the program from crashing, we could do something like:
+
+```
+errorCodeType readFile {
+    initialize errorCode = 0;
+    // open the file;
+    if (theFileIsOpen) {
+        // determine the length of the file;
+        if (gotTheFileLength) {
+            // allocate that much memory;
+            if (gotEnoughMemory) {
+                // read the file into memory;
+                if (readFailed) errorCode = -1;
+                else errorCode = -2;
+            }
+        } else errorCode = -3;
+        // close the file;
+        if (theFileDidntClose && errorCode == 0) errorCode = -4;
+        else errorCode = errorCode and -4;
+    } else errorCode = -5;
+    return errorCode;
+}
+```
+
+---
+
+
+name: proper
+
+# The better option
+
+--
+
+Much more readable:
+
+```
+readFile {
+    try {
+        open the file;
+        determine its size;
+        allocate that much memory;
+        read the file into memory;
+        close the file;
+    } catch (fileOpenFailed) {
+       doSomething;
+    } catch (sizeDeterminationFailed) {
+        doSomething;
+    } catch (memoryAllocationFailed) {
+        doSomething;
+    } catch (readFailed) {
+        doSomething;
+    } catch (fileCloseFailed) {
+        doSomething;
+    }
+}
+```
 
 ---
 
@@ -503,4 +576,4 @@ Like function arguments and return values, checked exceptions are yet another me
 
 --
 
-- Thank you. Bye.
+Exceptions allow for more readable code. They can be propagated up the call stack so there is some flexibility in when they are handled (caught). Lastly, they allow for grouping and differentiation.

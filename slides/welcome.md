@@ -115,7 +115,7 @@ Programs usually think of data in terms of rigid stereotypes.
 - dictionaries/hash tables/associative arrays
 - nonetypes/null/nil
 
-Review [data types](https://nyu-python-programming.github.io/course-material/data-types).
+Review [data types](https://github.com/nyu-python-programming/data-types-practice).
 
 ---
 
@@ -133,7 +133,7 @@ response = input("What's your name?")
 print("Hi '{}'!".format(response.capitalize()))
 ```
 
-Review [input and output](https://nyu-python-programming.github.io/course-material/input-output).
+Review [input and output](https://github.com/nyu-python-programming/input-output-expressions).
 
 ---
 
@@ -148,7 +148,7 @@ if this or that and the_other is not also_that:
     thats_wonderful()
 ```
 
-Review [boolean logic](https://nyu-python-programming.github.io/course-material/boolean-logic) and [decision-making](https://nyu-python-programming.github.io/course-material/decision-making).
+Review [boolean logic](https://github.com/nyu-python-programming/boolean-expressions) and [decision-making](https://github.com/nyu-python-programming/decision-making-practice).
 
 ---
 
@@ -162,8 +162,6 @@ Functions are modular blocks of code usually designed to perform a single task.
 def thats_wonderful():
     print("That's wonderful")
 ```
-
-Review [functions](https://nyu-python-programming.github.io/course-material/functions).
 
 ---
 
@@ -185,7 +183,7 @@ def thats_wonderful():
         print("Okay...")
 ```
 
-Review [modules](https://nyu-python-programming.github.io/course-material/modules).
+Review [modules](https://github.com/nyu-python-programming/modules-virtual-environments-examples).
 
 ---
 
@@ -207,7 +205,7 @@ while i < 10:
     i = i + 1
 ```
 
-Review [for loops](https://nyu-python-programming.github.io/course-material/loops-for) and [while loops](https://nyu-python-programming.github.io/course-material/loops-while).
+Review [for loops](https://github.com/nyu-python-programming/for-loop-practice) and [while loops](https://github.com/nyu-python-programming/ninety-nine-bottles-of-beer-assignment).
 
 ---
 
@@ -225,8 +223,6 @@ favorite_foods = [
     ]
 ```
 
-Review [lists](https://nyu-python-programming.github.io/course-material/list-basics) and [more lists](https://nyu-python-programming.github.io/course-material/list-more).
-
 ---
 
 # What you know you knew
@@ -242,8 +238,6 @@ phone_numbers: {
     "Bar Baz":      "747-211-8451"
 }
 ```
-
-Review [dictionaries](https://nyu-python-programming.github.io/course-material/dictionary-basics) and [more dictionaries](https://nyu-python-programming.github.io/course-material/dictionary-more).
 
 ---
 
@@ -264,8 +258,6 @@ for line in f:
     data = line.split(",")
 ```
 
-Review [text files](https://nyu-python-programming.github.io/course-material/text-files).
-
 ---
 
 # What you know you knew
@@ -281,8 +273,6 @@ pos = text.find(",")
 if pos > 0:
     data = text.split(",")
 ```
-
-Review [strings](https://nyu-python-programming.github.io/course-material/string-basics) and [string formatting](https://nyu-python-programming.github.io/course-material/string-formatting).
 
 ---
 
@@ -309,8 +299,6 @@ I_am_not
 ```python
 math.pow(washington, 2) + park
 ```
-
-Review [variables, literals, and expressions](https://nyu-python-programming.github.io/course-material/variables-literals-expressions).
 
 ---
 
@@ -419,8 +407,6 @@ Can you answer these questions?
 
 --
 
-Review [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts) (and/or chapter 1.1-1.4 in the textbook).
-
 ---
 
 # What you didn't know you didn't know
@@ -455,8 +441,6 @@ print(x)
 x = r"First line\nSecond line"
 print(x)
 ```
-
-Learn about [raw strings](https://nyu-python-programming.github.io/course-material/string-raw).
 
 ---
 
@@ -643,7 +627,7 @@ The Java Development Kit (JDK) is a necessary set of tools that help develop Jav
 
 # What to do now
 
-## Optional: Download and install Visual Studio Code
+## Download and install Visual Studio Code
 
 Visual Studio Code is an Integrated Development Environment (IDE) that integrates with the JDK to allow you to easily write and debug Java programs.
 

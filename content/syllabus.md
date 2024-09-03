@@ -36,7 +36,6 @@ Upon completing this course, students will be familiar with some of the foundati
 Tobias Blickhan 
 <br />tobias.blickhan@nyu.edu<br />
 WWH 402 <br />
-Office hours: Thursdays 1 to 2PM
 
 ## Getting help
 
@@ -87,25 +86,24 @@ You will be able to save your work in the ITS labs on your own flash drive, or o
 
 ## Grading
 
-You will receive a grade calculated mechanically on the following rubric.
+You will receive a grade calculated on the following rubric:
 
-- 25% assignments + quizzes
-- 20% first exam
+- 20% assignments
+- 25% first exam
 - 25% second exam
 - 30% third exam
-
 
 ### Quizzes & Assignments
 
 Quizzes and assignments are completed outside of class in [Brightspace](https://brightspace.nyu.edu).
 
-All assigned work is due _before_ class on the due date indicated on the [schedule](/)
-
-Please do not ask for extensions.
+All assigned work is due _before_ class on the due date indicated on the [schedule](/).
 
 ### Regrade requests
 
 If a student requests a regrade of any work, we will regrade the work in full, not just the part that the student believes has been mis-graded.
+
+For an explanation/regrade of homework submissions, please submit the request via Gradescope so the graders are in the loop from the start. There is a field to enter comments and explanations about your request; providing context and comments greatly increases the chance your request will be acted on. Explain what was wrong and why. Furthermore, submit the request within a week after the grade was assigned.
 
 ## Inspirational quote
 

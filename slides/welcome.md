@@ -60,10 +60,6 @@ tobias.blickhan@nyu.edu
 
 Warren Weaver Hall 402 (251 Mercer St, New York)
 
-Office hours: Tuesdays 4 to 5PM and Thursdays 1 to 2PM
-
----
-
 template: introductions
 
 ## You
@@ -570,7 +566,8 @@ template: how-course-works
 
 ## Grading
 
-- 25% quizzes + assignments
+- 10% in-class quizzes
+- 15% assignments
 - 20% first exam
 - 25% second exam
 - 30% third exam

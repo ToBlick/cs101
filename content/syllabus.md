@@ -88,14 +88,17 @@ You will be able to save your work in the ITS labs on your own flash drive, or o
 
 You will receive a grade calculated on the following rubric:
 
-- 20% assignments
-- 25% first exam
+- 10% in-class quizzes
+- 15% assignments
+- 20% first exam
 - 25% second exam
 - 30% third exam
 
 ### Quizzes & Assignments
 
-Quizzes and assignments are completed outside of class in [Brightspace](https://brightspace.nyu.edu).
+Online quizzes and assignments are completed outside of class in [Brightspace](https://brightspace.nyu.edu).
+
+In-class quizzes are there for you to check your knowledge before the exams. You will have a rough idea of when they will take place.
 
 All assigned work is due _before_ class on the due date indicated on the [schedule](/).
 

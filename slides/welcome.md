@@ -548,7 +548,9 @@ template: how-course-works
 
 ## Quizzes
 
-The can be simple multiple-choice online quizzes. These are meant to help you self-assess your own mastery of conceptual material.
+There will be multiple-choice online quizzes. These are meant to help you self-assess your own mastery of conceptual material.
+
+In-class quizzes are there for you to check your knowledge before the exams. You will have a rough idea of when they will take place.
 
 ---
 

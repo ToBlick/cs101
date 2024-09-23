@@ -453,12 +453,16 @@ Java natively supports 8 fundamental [primitive data types](http://docs.oracle.c
 - `byte` = 8-bit signed integer
 - `short` = 16-bit signed signed integer
 - `int` = 32-bit signed integer (**the default** for integer literals)
-- `long` = 64-bit signed floating-point number
-- `float` = 32-bit floating point floating-point number
+- `long` = 64-bit signed integer
+- `float` = 32-bit floating point floating-point number (IEEE 754 single precision)
 - `double` = 64-bit floating point number (**the default** for floating point literals)
 - `char` = 16-bit Unicode character code
 - `boolean` = 1-bit true (1) or false (0) value
 - **arrays**, while not a data type, are a fundamental data structure in Java
+
+--
+
+When declared but not assigned a value, these are set to a reasonable default (0, 0.0f, false, ...) by the compiler.
 
 ---
 

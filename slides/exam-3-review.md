@@ -23,17 +23,6 @@ Intro to Computer Science
 1. [Recursion](#recursion)
 1. [Conclusions](#conclusions)
 
----
-
-name: structure
-
-# Structure
-
---
-
-## Overview
-
-The exam will take place during class time.
 
 ---
 
@@ -67,7 +56,7 @@ name: part1
 - Branching and control flow. `if/else/switch/case`.
 - Declaring and using methods. Keywords. Signatures. Scope of a variable. Overloading.
 - Arrays. Passing references or values to methods. 
-- Multidimensional arrays. Does Java have them? Arrays of arrays and how to use them. Implications for speed and memory usage (see problem 1 of modterm 2). Ragged arrays. 
+- Multidimensional arrays. Does Java have them? Arrays of arrays and how to use them. Implications for speed and memory usage (see 'batching' problem). Ragged arrays.
 - `ArrayList` and why it is needed (you do not need to memorize/bring the method signatures).
 
 ---

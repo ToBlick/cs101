@@ -88,10 +88,10 @@ You will be able to save your work in the ITS labs on your own flash drive, or o
 
 You will receive a grade calculated on the following rubric:
 
-- 10% in-class quizzes
+- 15% in-class quizzes
 - 15% assignments
 - 20% first exam
-- 25% second exam
+- 20% second exam
 - 30% third exam
 
 ### Quizzes & Assignments

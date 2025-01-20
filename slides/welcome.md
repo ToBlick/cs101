@@ -229,9 +229,9 @@ Dictionaries contain key/value pairs.
 
 ```python
 phone_numbers: {
-    "Foo Barstein": "646-888-5623",
-    "Baz Foo":      "212-717-3297",
-    "Bar Baz":      "747-211-8451"
+    "Alice": "646-888-5623",
+    "Bob":      "212-717-3297",
+    "Carlos":      "747-211-8451"
 }
 ```
 
@@ -355,15 +355,15 @@ A popular way to think about programs with interacting parts.
 - Object-oriented programming
 
 ```python
-you = new Student("Jane Doe")
+alice = new Student("Alice")
 ```
 
 ```python
-me = new Professor("Foo Barstein")
+bob = new Professor("Bob")
 ```
 
 ```python
-me.say_hello(you)
+bob.say_hello(alice)
 ```
 
 Jump ahead half a semester to [object-oriented programming](../../slides/object-orientation)
@@ -418,7 +418,7 @@ x = 10
 print(y)
 ```
 
-Try it out yourself.
+Try it out!
 
 ---
 
@@ -530,7 +530,9 @@ template: how-course-works
 
 ## Reading
 
-Reading assignments from [the textbook](../../syllabus) and elsewhere each class. The textbook is quite thorough.
+There are many resources available in the form of textbooks, blog articles, the [java docs](https://docs.oracle.com/en/java/), video tutorials, ....
+
+See what works best for you.
 
 ---
 
@@ -538,9 +540,9 @@ template: how-course-works
 
 ## Assignments
 
-You will have somewhere around 10 assignments.
+You will have somewhere around 8 assignments.
 
-Please do not ask for an extension.
+Extensions are available on request.
 
 ---
 
@@ -548,9 +550,9 @@ template: how-course-works
 
 ## Quizzes
 
-There will be multiple-choice online quizzes. These are meant to help you self-assess your own mastery of conceptual material.
+There will be multiple-choice online quizzes. These are meant to help you practice and do not influence your grade.
 
-In-class quizzes are there for you to check your knowledge before the exams. You will have a rough idea of when they will take place.
+In-class quizzes are there for you to check your knowledge before the exams. You will have an idea of when they will take place.
 
 ---
 
@@ -560,7 +562,23 @@ template: how-course-works
 
 You will take 3 exams.
 
-The later exams are worth a bit bit more points and are a bit harder.
+---
+
+template: how-course-works
+
+## Practice
+
+“Tell me and I will forget, show me and I may remember; involve me and I will understand.” - Supposedly Confucius (孔子), but I could not find a reliable citation.
+
+This course is a bit like a mix between a language class and a math class.
+
+A lot of it is "learning by doing". The vast majority of your exam prep should be writing code and working on coding problems. I do not plan to ask you memorization questions. You will be allowed a sheet of notes in exams and quizzes.
+
+Practice problems can be found
+- in the [corresponding repo](https://github.com/ToBlick/cs101-examples/tree/main)
+- on online programming learning platforms (these are very popular for anyone practicing for interview questions)
+- by asking your favorite LLM to generate you some
+- by talking to your fellow students
 
 ---
 
@@ -568,11 +586,23 @@ template: how-course-works
 
 ## Grading
 
-- 10% in-class quizzes
+- 15% in-class quizzes
 - 15% assignments
 - 20% first exam
-- 25% second exam
+- 20% second exam
 - 30% third exam
+
+---
+
+template: how-course-works
+
+## How tough is this course?
+
+Programming can sometimes feel very binary: things work or they do not. This can be both very rewarding and very frustrating.
+
+On a scale from 1 (easy) to 5, it was rated 3.9 and 4.5 in previous semesters. Note that these are ratings from those students who did not end up dropping the course. Roughly half of the students stated they spend 3 to 5 hours a week on the course, the other half 6 to 8.
+
+The exams are challenging. The idea behind this is that small errors, "typos" and oversights do not drag down your grade much.
 
 ---
 
@@ -580,7 +610,7 @@ template: how-course-works
 
 ## Communication
 
-Announcements concerning the course will be posted on Brightspace. There is also a discussions (forum) function there. You can always talk to me before or after class and during office hours.
+Announcements concerning the course will be posted on Brightspace. There is also a discussions forum there. You can always talk to me before or after class. If you want to meet outside of those times, please reach out via email.
 
 ---
 
@@ -588,9 +618,9 @@ template: how-course-works
 
 ## Tutoring
 
-Tutors are waiting to answer your questions virtually all day every day of the week.
+Tutors are available to answer your questions and help you with anything related to the course.
 
-See them often. See them fast.
+See them often and early.
 
 The tutoring schedule is released on Brightspace.
 
@@ -626,20 +656,6 @@ The Java Development Kit (JDK) is a necessary set of tools that help develop Jav
 
 # What to do now
 
-## Download and install Visual Studio Code
-
-Visual Studio Code is an Integrated Development Environment (IDE) that integrates with the JDK to allow you to easily write and debug Java programs.
-
-https://code.visualstudio.com
-
-These extensions to Visual Studio Code make it suitable for Java programming.
-
-https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
-
----
-
-# What to do now
-
 ## Install a shell
 
 - Windows (WSL):
@@ -648,7 +664,7 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 - alternatively: Windows (Git)
  - [Install Git for Windows](https://gitforwindows.org/).
  - To set Git Bash up in VSCode [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answer, which is outdated).
-- Mac users already have a UNIX command shell in the Terminal app.
+- Linux and Mac users already have a UNIX command shell in the form of the terminal.
 
 ---
 

@@ -60,6 +60,8 @@ tobias.blickhan@nyu.edu
 
 Warren Weaver Hall 402 (251 Mercer St, New York)
 
+---
+
 template: introductions
 
 ## You
@@ -68,26 +70,6 @@ template: introductions
 - Perhaps an aspiring computer scientist.
 - Hopefully interested in making things and solving problems.
 - Willing to spend hours by yourself reading and staring at code.
-
----
-
-template: introductions
-
-## Computer science
-
-The study of the theory and practice of computation. Very open-ended.
-
-```python
-not programming == computer_sciencing
-```
-
-```python
-computer_sciencing.find(computers) == -1
-```
-
-```python
-computer_sciencing not in sciences
-```
 
 ---
 
@@ -229,9 +211,9 @@ Dictionaries contain key/value pairs.
 
 ```python
 phone_numbers: {
-    "Alice": "646-888-5623",
+    "Alice":    "646-888-5623",
     "Bob":      "212-717-3297",
-    "Carlos":      "747-211-8451"
+    "Carlos":   "747-211-8451"
 }
 ```
 
@@ -397,11 +379,6 @@ Can you answer these questions?
 
 - What is a compiler? What is an interpreter? An assembler?
 
---
-
-- What is an operating system? What is an application?
-
---
 
 ---
 
@@ -409,7 +386,7 @@ Can you answer these questions?
 
 ## Alias vs. copy
 
-What is printed?
+What is printed? (this is python code)
 
 ```python
 x = 5
@@ -514,7 +491,7 @@ template: how-course-works
 
 ## Notes
 
-There are notes for most lecture topics by [Amos Bloomberg](https://knowledge.kitchen/). You may find them useful but incomplete.
+There are notes for most lecture topics by [Amos Bloomberg](https://knowledge.kitchen/). They are very useful but they are under construction.
 
 ---
 
@@ -568,11 +545,11 @@ template: how-course-works
 
 ## Practice
 
-“Tell me and I will forget, show me and I may remember; involve me and I will understand.” - Supposedly Confucius (孔子), but I could not find a reliable citation.
-
 This course is a bit like a mix between a language class and a math class.
 
 A lot of it is "learning by doing". The vast majority of your exam prep should be writing code and working on coding problems. I do not plan to ask you memorization questions. You will be allowed a sheet of notes in exams and quizzes.
+
+--
 
 Practice problems can be found
 - in the [corresponding repo](https://github.com/ToBlick/cs101-examples/tree/main)
@@ -600,7 +577,11 @@ template: how-course-works
 
 Programming can feel very binary: things work or they do not. This can be both very rewarding and very frustrating.
 
+--
+
 On a scale from 1 (easy) to 5, the course was rated 3.9 and 4.5 in previous semesters. Note that these are ratings from those students who did not end up dropping the course. Roughly half of the students stated they spend 3 to 5 hours a week on the course, the other half 6 to 8.
+
+--
 
 The exams are challenging. The idea behind this is that small errors, "typos" and oversights do not drag down your grade much.
 

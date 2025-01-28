@@ -22,12 +22,10 @@ class: center, middle
 1. [Numbers](#numbers)
 1. [Conclusions](#conclusion)
 
-???
-
-Here is a quick outline of a minimal set of concepts which you must
+<!-- Here is a quick outline of a minimal set of concepts which you must
 familiarize yourself with immediately in order to be ready to learn to
 be literate in usage of computers in general, not just for any given
-course.
+course. -->
 
 
 ---
@@ -40,14 +38,12 @@ Several levels:
 - Operating system
 - Applications
 
-
 ---
 
 name: hardware
 ## Computer Hardware
 
 CPU
-
 
 Storage
 - Memory
@@ -69,7 +65,7 @@ I/O
 
 ---
 
-## Busses
+<!-- ## Busses
 
 
 Motherboard connect all of the components together via busses
@@ -80,11 +76,11 @@ Motherboard connect all of the components together via busses
 
 <img src="https://pbs.twimg.com/media/FejleAtXkAEEiDz?format=jpg&name=4096x4096" width=500 />
 
----
+--- -->
 
 
 ## CPU
-Manages much of the data from busses
+<!-- Manages much of the data from busses -->
 - Controls memory
 - Can read and execute commands
 - Modern processors schedule commands between multiple cores
@@ -107,20 +103,18 @@ Computers work 8 bits at a time called a _byte_
 It's the easiest place to store data in programs
 - Variables and "state" are typically stored in memory
 - CPUs have faster memory in "cache" (10x)
-  - but humans are bad at managing them
 - Drives can store much more, but are much slower (~1000x)
 
 Cache < Memory < Disk
 
 (numbers according to [Chandler Carruth in 2014](https://www.youtube.com/watch?v=fHNmRkzxHWs&t=2201))
 
----
-
+<!-- ---
 ## System-on-Chip
 
 Some computers combine parts together
 - Makes bus traces shorter
-<p><a href="https://commons.wikimedia.org/wiki/File:Apple_M1.jpg#/media/File:Apple_M1.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Apple_M1.jpg/1200px-Apple_M1.jpg" width="300" alt="Illustration of an M1 processor"></a><br>By &lt;a href="//commons.wikimedia.org/wiki/User:Henriok" title="User:Henriok"&gt;Henriok&lt;/a&gt; - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=96026688">Link</a></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:Apple_M1.jpg#/media/File:Apple_M1.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Apple_M1.jpg/1200px-Apple_M1.jpg" width="300" alt="Illustration of an M1 processor"></a><br>By &lt;a href="//commons.wikimedia.org/wiki/User:Henriok" title="User:Henriok"&gt;Henriok&lt;/a&gt; - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=96026688">Link</a></p> -->
 
 ---
 ## System-on-Chip
@@ -137,22 +131,18 @@ Some computers combine parts together
 
 ---
 
-
-
 name: operating_systems
 
-
 ## Operating systems
-
 
 Sits between hardware and users
 - Handles data input / output
 - Schedules which software has access to different resources and when
-
+<!-- 
 Most provide more or less the same "basic" functionality but can have different
 - code
 - ethical principles
-- communities
+- communities -->
 
 ---
 
@@ -160,9 +150,8 @@ Most provide more or less the same "basic" functionality but can have different
 
 ![](https://raw.githubusercontent.com/EG-tech/digipres-posters/master/OS_kernel_timeline.jpg)
 
-
 ---
-
+<!-- 
 ## Applications
 
 Process data
@@ -207,7 +196,7 @@ output the data in memory to the screen
 ```
 
 
----
+--- -->
 
 name: desktop_analogy
 
@@ -245,14 +234,14 @@ name: files_and_folders
 
 .right[Icons from [KDE Breeze icon set](https://github.com/KDE/breeze-icons) and cabinet from [Gnome Nautilus](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)]
 
-???
+<!-- ???
 
 With the desktop analogy we have the paper analogy.
 Traditionally we would store data on paper, and use folders and filing cabinets to store that data.
 Directories were tools to help us look up files and folders.
 
 Data on computers is stored in files, and files are organized together into folders and directories to organize the data.
-You'd be surprised howe much of computer science comes down to how to organize data, and that's what CS102 is all about.
+You'd be surprised howe much of computer science comes down to how to organize data, and that's what CS102 is all about. -->
 
 
 ---
@@ -305,7 +294,7 @@ OSX
 - [XCode](developer.apple.com/xcode)
 - [TextMate](macromates.com)
 
-Language-specific
+More language-specific
 - [JetBrains](jetbrains.com) products (IntelliJ IDEA, PyCharm, CLion, etc...)
 - [Eclipse](eclipse.org)
 
@@ -333,17 +322,17 @@ Source Code
 ```java
 class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World 🐢!");
+        System.out.println("Hello World!");
     }
 }
 ```
 json
 ```json
 {
-    "class": "CSCI-UA-0101-004",
+    "class": "CSCI-UA-0101-003",
     "professor": "Tobias Blickhan",
     "building": "WWH",
-    "room": 312
+    "room": 402
 }
 ```
 ---
@@ -504,10 +493,7 @@ Every file and folder controls who can read/write/execute a file
 
 ---
 
-
-
-## Software is Input/Output
-
+<!-- ## Software is Input/Output
 
 Inputs:
 - Files
@@ -523,7 +509,7 @@ Outputs:
 - Sound (through headphones/screens)
 - Network data
 
----
+--- -->
 
 ## The Environment
 
@@ -551,7 +537,7 @@ Software needs some context for how it should run
 
 
 ---
-
+<!-- 
 ## Networks
 
 Modern computer usage errs away from files on disks
@@ -619,7 +605,7 @@ streaming media such as webcams and internet radio, and
 protocol and other proprietary protocols)
 - etc
 
----
+--- -->
 
 ## Representing numbers
 
@@ -695,13 +681,37 @@ If you can build a circuit (or a mechanical system!) that implements "exclusive 
 
 ---
 
+## Transistors and Gates
+
+[A NAND gate](../files/nand.jpg) (from Wikipedia)
+
+Truth table:
+| A | B | A NAND B |
+|---|---|----------|
+| 0 | 0 |    1     |
+| 0 | 1 |    1     |
+| 1 | 0 |    1     |
+| 1 | 1 |    0     |
+
+---
+
+## Transistors and Gates
+
+[A half adder](../files/adder.jpg) (also from Wikipedia)
+
+$$ \{0,0\} \mapsto \{ 0, \text{carry } 0\}. $$
+$$ \{0,1\} \mapsto \{ 1, \text{carry } 0\}. $$
+$$ \{1,0\} \mapsto \{ 1, \text{carry } 0\}. $$
+$$ \{1,1\} \mapsto \{ 0, \text{carry } 1\}. $$
+
+S = "A or (exclusive!) B". C = "A and B".
+
+---
+
 ## Conclusion
 
 An idea for how components of a computer operate.
 
-A more general view of what files on a computer are.
-
-A brief overview of the internet connections.
-
 A little excursion into number representation.
 
+A little excursion into how to build a bit adder.

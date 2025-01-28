@@ -22,10 +22,6 @@ class: center, middle
 1. [Numbers](#numbers)
 1. [Conclusions](#conclusion)
 
-<!-- Here is a quick outline of a minimal set of concepts which you must
-familiarize yourself with immediately in order to be ready to learn to
-be literate in usage of computers in general, not just for any given
-course. -->
 
 
 ---
@@ -62,25 +58,10 @@ Output
 I/O
 - Network
 
-
 ---
 
-<!-- ## Busses
-
-
-Motherboard connect all of the components together via busses
-- Playstation 5 traces are quite nicely visible (from [here](https://twitter.com/austinnotduncan/status/1578764005350338560/photo/1))
-  - Most traces move between components and CPU
-  - Both sides visible [here](https://youtu.be/CaAY-jAjm0w?t=295)
-  - Interesting to look at [this teardown](https://www.ifixit.com/Teardown/PlayStation+5+Teardown/138280)
-
-<img src="https://pbs.twimg.com/media/FejleAtXkAEEiDz?format=jpg&name=4096x4096" width=500 />
-
---- -->
-
-
 ## CPU
-<!-- Manages much of the data from busses -->
+
 - Controls memory
 - Can read and execute commands
 - Modern processors schedule commands between multiple cores
@@ -109,13 +90,6 @@ Cache < Memory < Disk
 
 (numbers according to [Chandler Carruth in 2014](https://www.youtube.com/watch?v=fHNmRkzxHWs&t=2201))
 
-<!-- ---
-## System-on-Chip
-
-Some computers combine parts together
-- Makes bus traces shorter
-<p><a href="https://commons.wikimedia.org/wiki/File:Apple_M1.jpg#/media/File:Apple_M1.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Apple_M1.jpg/1200px-Apple_M1.jpg" width="300" alt="Illustration of an M1 processor"></a><br>By &lt;a href="//commons.wikimedia.org/wiki/User:Henriok" title="User:Henriok"&gt;Henriok&lt;/a&gt; - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=96026688">Link</a></p> -->
-
 ---
 ## System-on-Chip
 
@@ -138,11 +112,6 @@ name: operating_systems
 Sits between hardware and users
 - Handles data input / output
 - Schedules which software has access to different resources and when
-<!-- 
-Most provide more or less the same "basic" functionality but can have different
-- code
-- ethical principles
-- communities -->
 
 ---
 
@@ -151,52 +120,6 @@ Most provide more or less the same "basic" functionality but can have different
 ![](https://raw.githubusercontent.com/EG-tech/digipres-posters/master/OS_kernel_timeline.jpg)
 
 ---
-<!-- 
-## Applications
-
-Process data
-- Multimedia
-  - Input: file on disk/URL
-  - Output: display on screen or play through speakers
-- Games
-  - Input: keyboard/mouse inputs
-  - Output: display content to screen and audio through speakers
-- File decompression
-  - Input: file on disk
-  - Output: one or multiple files/directories on disk
-- Documents
-  - Input: file on disk + keyboard/mouse inputs
-  - Output: updated document
-
-
----
-
-## Python example
-
-read from keyboard input
-```python
-input_file = input("What file should I open?")
-```
-request a representation for a file on the drive
-```python
-with open(input_file,"r") as in_fd:
-```
-transfer data from disk to memory
-```python
-    lines = in_fd.readlines()
-```
-modify the data in memory
-```python
-    for line in lines:
-        line = line.lower()
-```
-output the data in memory to the screen
-```python
-        print(line)
-```
-
-
---- -->
 
 name: desktop_analogy
 
@@ -233,15 +156,6 @@ name: files_and_folders
 <img src="https://wiki.gnome.org/Apps/Files/Header?action=AttachFile&do=get&target=logo.png" width="10%"\>
 
 .right[Icons from [KDE Breeze icon set](https://github.com/KDE/breeze-icons) and cabinet from [Gnome Nautilus](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)]
-
-<!-- ???
-
-With the desktop analogy we have the paper analogy.
-Traditionally we would store data on paper, and use folders and filing cabinets to store that data.
-Directories were tools to help us look up files and folders.
-
-Data on computers is stored in files, and files are organized together into folders and directories to organize the data.
-You'd be surprised howe much of computer science comes down to how to organize data, and that's what CS102 is all about. -->
 
 
 ---
@@ -493,24 +407,6 @@ Every file and folder controls who can read/write/execute a file
 
 ---
 
-<!-- ## Software is Input/Output
-
-Inputs:
-- Files
-- User Inputs
-  - Mouse
-  - Keyboard
-  - Microphone
-  - Camera
-- Network data
-Outputs:
-- Files
-- Visuals (through monitors/screens)
-- Sound (through headphones/screens)
-- Network data
-
---- -->
-
 ## The Environment
 
 Software needs some context for how it should run
@@ -535,77 +431,7 @@ Software needs some context for how it should run
   - What encoding data comes in
   - What other software to use
 
-
 ---
-<!-- 
-## Networks
-
-Modern computer usage errs away from files on disks
-
---
-
-- Majority of computation is done on the internet
-
---
-
-- How does that work?
-
-
----
-
-## Clients and servers
-
-Our computer ("client") prepares messages and sends it through cable or wifi to a remote destination according to an address.
-- https://google.com
-  - Protocol: https
-  - Location: google.com
-
---
-
-A computer ("server") reads the message and returns an output message
-- contents of the webpage "https://google.com"
-
----
-
-## Web browsers
-
-Client for interacting with web data
-
-For a user on a client computer:
-- Input: a URL / link, clicks a link, interacts with a webpage
-
-- Output: Visualizes web page data according to the action
-
-
-For a remote server computer:
-- Input: A request for a webpage using the [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) or
-HTTPS protocol.
-- Output: [HTML](https://en.wikipedia.org/wiki/HTML) data sent with the HTTP/HTTPS protocol.
-
---
-
-This input/output relationship is complex due to programs that run in web browsers
-- Almost an operating system of its own (i.e Chrome OS)
-
----
-
-## Different encodings
-
-Just like binary files, html is just one encoding of data.
-Internet transfers all sorts of data:
-
-- ([IMAP](http://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)
-and [POP](http://en.wikipedia.org/wiki/Post_Office_Protocol) protocols),
-file transfer
-- ([FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol) and [SSH](http://en.wikipedia.org/wiki/Secure_Shell) protocols),
-- [VoIP](http://en.wikipedia.org/wiki/Voice_over_Internet_Protocol),
-streaming media such as webcams and internet radio, and
-- [P2P](http://en.wikipedia.org/wiki/Peer-to-peer) file sharing
-- ([RTP](http://en.wikipedia.org/wiki/Real-time_Transport_Protocol)
-protocol and other proprietary protocols)
-- etc
-
---- -->
 
 ## Representing numbers
 

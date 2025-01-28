@@ -513,11 +513,14 @@ If you can build a circuit (or a mechanical system!) that implements "exclusive 
 
 Outout is "on" if and only if A and B are not both "on".
 
+Basic logic gates: NOT, AND, OR, XOR, NAND, NOR, NXOR.
+
+"XOR" refers to exclusive or: A OR B, but not both. 
 ---
 
 ## Transistors and Gates
 
-[A half adder](../files/half_adder.jpg) (also from Wikipedia)
+[A half adder made from NAND gates](../files/half_adder.jpg) and [one made with an XOR and AND gate](../files/half_adder_xor.png) (also from Wikipedia)
 
 $$ \{0,0\} \mapsto \{ 0, \text{carry } 0\}. $$
 $$ \{0,1\} \mapsto \{ 1, \text{carry } 0\}. $$

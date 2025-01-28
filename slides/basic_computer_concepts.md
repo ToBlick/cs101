@@ -310,10 +310,9 @@ json
 
 <a href="https://nyu.edu"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Nyu_short_color.svg" alt="drawing" width="50%"/></a>
 
---
+---
 
 ### Binary file editors
-
 
 Images
 - Raster (Pixel-based)

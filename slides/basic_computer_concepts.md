@@ -509,9 +509,7 @@ If you can build a circuit (or a mechanical system!) that implements "exclusive 
 
 ## Transistors and Gates
 
-A NAND gate (from Wikipedia)
-
-<img src="../files/nand.jpg" width="66%" />
+[A NAND gate](../files/nand.jpg) (from Wikipedia).
 
 Outout is "on" if and only if A and B are not both "on".
 
@@ -519,7 +517,7 @@ Outout is "on" if and only if A and B are not both "on".
 
 ## Transistors and Gates
 
-[A half adder](../files/adder.jpg) (also from Wikipedia)
+[A half adder](../files/half_adder.jpg) (also from Wikipedia)
 
 $$ \{0,0\} \mapsto \{ 0, \text{carry } 0\}. $$
 $$ \{0,1\} \mapsto \{ 1, \text{carry } 0\}. $$

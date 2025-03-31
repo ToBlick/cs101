@@ -312,7 +312,7 @@ json
 
 ---
 
-### Binary file editors
+## Binary file editors
 
 Images
 - Raster (Pixel-based)

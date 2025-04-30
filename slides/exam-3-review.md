@@ -74,5 +74,7 @@ name: part2
 - Interfaces. Default methods. Implementing multiple interfaces. Limitations of interfaces.
 - Examples of all of the above. Why is the polymorphism concept so important? What can and cannot be instantiated?
 - Exception handling. Errors vs. exceptions. Unchecked and checked exceptions. `try/catch/finally` and `throws`.
+- Recursion
+- Sorting: Insertionsort, Mergesort, Quicksort
 
 --

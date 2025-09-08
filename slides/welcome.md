@@ -50,6 +50,14 @@ Official description:
 
 ---
 
+template: introductions-1
+
+> I shall use the word programming to denote the whole activity of design and implementation of programmed solutions. What I am concerned with is the activity of matching some significant part and aspect of an activity in the real world to the formal symbol manipulation that can be done by a program running on a computer.
+>
+> – [Peter Naur](https://en.wikipedia.org/wiki/Peter_Naur), Programming as Theory Building (1985)
+
+---
+
 template: introductions
 
 ## Me
@@ -587,28 +595,6 @@ The exams are challenging. The idea behind this is that small errors, "typos" an
 
 ---
 
-## What is programming?
-
-> I shall use the word programming to denote the whole activity of design and implementation of programmed solutions. What I am concerned with is the activity of matching some significant part and aspect of an activity in the real world to the formal symbol manipulation that can be done by a program running on a computer.
->
-> – [Peter Naur](https://en.wikipedia.org/wiki/Peter_Naur), Programming as Theory Building (1985)
-
----
-
-## LLMs
-
-<img src="../files/refactor.jpeg" width="40%"\>
-
----
-
-## LLMs
-
-<img src="../files/Gemini.png" width="80%"\>
-
-It is a good idea to get accustomed to LLM/AI tools without becoming fully dependent on them. You won't have access to an LLM during exams.
-
----
-
 template: how-course-works
 
 ## Communication
@@ -668,6 +654,21 @@ The Java Development Kit (JDK) is a necessary set of tools that help develop Jav
  - [Install Git for Windows](https://gitforwindows.org/).
  - To set Git Bash up in VSCode [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answer, which is outdated).
 - Linux and Mac users already have a UNIX command shell in the form of the terminal.
+
+---
+
+
+## LLMs
+
+<img src="../files/refactor.jpeg" width="40%"\>
+
+---
+
+## LLMs
+
+<img src="../files/Gemini.png" width="80%"\>
+
+It is a good idea to get accustomed to LLM/AI tools without becoming fully dependent on them. You won't have access to an LLM during exams.
 
 ---
 

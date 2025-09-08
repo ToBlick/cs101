@@ -98,68 +98,6 @@ Sits between hardware and users
 
 ---
 
-<!-- name: desktop_analogy
-
-## Desktop Metaphor
-- How do computers store data?
- - All 0's and 1's, but we organize them using software so other software can derive meaning
- - We already had systems for organizing data at our desks, so we modeled off of them
-
-<a href="https://www.youtube.com/watch?v=1UtlOgkOGy4"><img src="../files/apple_desktop_2.png" width="45%"/></a>
-<a href="http://toastytech.com/guis/a2desk.html"><img src="../files/apple_desktop.png" width="45%"\></a>
-  
-.right[images are links to sources]
-
-
----
-
-name: files_and_folders
-## Files and folders
-
-- Paper analogy
-  - Files:
-
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-address-book.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-calendar.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-contact.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-document.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-drawing.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-presentation.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-spreadsheet.svg" \>
-
-  - Folders / Directories:
-
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/places/96/folder-blue.svg" width="10%"\>
-<img src="https://wiki.gnome.org/Apps/Files/Header?action=AttachFile&do=get&target=logo.png" width="10%"\>
-
-.right[Icons from [KDE Breeze icon set](https://github.com/KDE/breeze-icons) and cabinet from [Gnome Nautilus](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)]
-
-
----
-
-
-## Types of files
-
-We might think of there as being many types of files, associated with differenet applications
-
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-address-book.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-calendar.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-contact.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-document.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-drawing.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-presentation.svg" \>
-<img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-spreadsheet.svg" \>
-
-Underneath, there are two fundamental kinds of files:
-- Text files
-- Binary files.
-
---
-
-Text files still use binary.
-
---- -->
-
 ## Text files
 
 Lines of human-readable characters, potentially separated into lines. No colors, no formatting (italics/bold/etc), no images/media.
@@ -381,33 +319,6 @@ Every file and folder controls who can read/write/execute a file
   the file or folder
 - others - everyone else not including the user or
   the group
-
-<!-- 
-## The Environment
-
-Software needs some context for how it should run
-
-- Arguments
-  - The input data that the user provided
-  - Which input files/locations to open
-  - What data should be generated?
-  - Where/how should that be data stored?
-
---
-
-- Working Directory
-  - Software is run from a particular directory for user convenience
-  - "Relative paths"
-
---
-
-- Environment variables
-  - Other data that the user or operating system has set
-  - Which type of output is available
-  - What encoding data comes in
-  - What other software to use
-
---- -->
 
 ---
 

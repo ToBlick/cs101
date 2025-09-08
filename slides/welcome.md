@@ -579,11 +579,33 @@ Programming can feel very binary: things work or they do not. This can be both v
 
 --
 
-On a scale from 1 (easy) to 5, the course was rated 3.9 and 4.5 in previous semesters. Note that these are ratings from those students who did not end up dropping the course. Roughly half of the students stated they spend 3 to 5 hours a week on the course, the other half 6 to 8.
+On a scale from 1 (easy) to 5, the course was rated 3.9, 4.5, and 4.1 in previous semesters. Note that these are ratings from those students who did not end up dropping the course. Roughly half of the students stated they spend 3 to 5 hours a week on the course, the other half 6 to 8.
 
 --
 
 The exams are challenging. The idea behind this is that small errors, "typos" and oversights do not drag down your grade much.
+
+---
+
+## What is programming?
+
+> I shall use the word programming to denote the whole activity of design and implementation of programmed solutions. What I am concerned with is the activity of matching some significant part and aspect of an activity in the real world to the formal symbol manipulation that can be done by a program running on a computer.
+>
+> – [Peter Naur](https://en.wikipedia.org/wiki/Peter_Naur), Programming as Theory Building (1985)
+
+---
+
+## LLMs
+
+<img src="../files/refactor.jpeg" width="40%"\>
+
+---
+
+## LLMs
+
+<img src="../files/Gemini.png" width="80%"\>
+
+It is a good idea to get accustomed to LLM/AI tools without becoming fully dependent on them. You won't have access to an LLM during exams.
 
 ---
 

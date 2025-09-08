@@ -4,29 +4,6 @@ title: Basic Computer Concepts
 permalink: /slides/basic_computer_concepts/
 ---
 
-class: center, middle
-
-# Basic computer concepts
-
----
-
-# Agenda
-
-1. [Computers](#computers)
-  - [Hardware](#hardware)
-  - [Operating Systems](#operating_systems)
-  - [Applications](#applications)
-1. [Desktop Analogy](#desktop_analogy)
-  - Files and good practices
-1. [Networks](#networks)
-1. [Numbers](#numbers)
-1. [Conclusions](#conclusion)
-
-
-
----
-
-
 ## Computers
 
 Several levels:
@@ -121,7 +98,7 @@ Sits between hardware and users
 
 ---
 
-name: desktop_analogy
+<!-- name: desktop_analogy
 
 ## Desktop Metaphor
 - How do computers store data?
@@ -181,7 +158,8 @@ Underneath, there are two fundamental kinds of files:
 
 Text files still use binary.
 
----
+--- -->
+
 ## Text files
 
 Lines of human-readable characters, potentially separated into lines. No colors, no formatting (italics/bold/etc), no images/media.
@@ -404,8 +382,7 @@ Every file and folder controls who can read/write/execute a file
 - others - everyone else not including the user or
   the group
 
----
-
+<!-- 
 ## The Environment
 
 Software needs some context for how it should run
@@ -430,13 +407,7 @@ Software needs some context for how it should run
   - What encoding data comes in
   - What other software to use
 
----
-
-## Representing numbers
-
-You might be familiar with the binary number system:
-
-<img src="../files/joke.png" width="66%" />
+--- -->
 
 ---
 

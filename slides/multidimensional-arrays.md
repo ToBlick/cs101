@@ -341,26 +341,18 @@ name: rows-columns-5
 int[][] a = new int[n][m];
 
 for (int i=0; i<n; i++) {
-    for (int j=0; j<m; j++) {
+    for (int j=0; j<m; j++)
         a[i][j] = doSomething();
-    }
 }
 
 for (int j=0; j<m; j++) {
-    for (int i=0; i<n; i++) {
+    for (int i=0; i<n; i++)
         a[i][j] = doSomething();
-    }
 }
 ```
+For $10^8$ elements, this takes 30 and 940ms, respectively. Why? The notation `a[i][j]`hints at what is going on. In other languages, this element is accessed with `a[i,j]` or `a(i,j)` and the matter is less clear.
 
-For $10^8$ elements, this takes 30 and 940ms, respectively. Why?
-
-In Java, the notation `a[i][j]`hints at what is going on behind the scenes. In other
-languages, this element is accessed with `a[i,j]` or `a(i,j)` and the matter is less clear.
-
-One can divide programming languages or their standard libraries that support multi-dimensional arrays into two groups: row-major (C, numpy) or column-major (e.g. Fortran, MATLAB, BLAS, LAPACK). 
-
-Java is not really row-major, since the rows themselves are not stored contingously.
+One can divide programming languages or their standard libraries that support multi-dimensional arrays into two: row-major (C, numpy) or column-major (e.g. Fortran, MATLAB, BLAS, LAPACK). Java is not really row-major, since the rows themselves are not stored contingously.
 
 ---
 

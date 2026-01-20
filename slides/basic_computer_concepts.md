@@ -4,6 +4,14 @@ title: Basic Computer Concepts
 permalink: /slides/basic_computer_concepts/
 ---
 
+
+class: center, middle
+# Basic Computer Concepts
+
+Intro to Computer Science
+
+---
+
 ## Memory
 
 Data is stored in a complex sequence of switches called _bits_

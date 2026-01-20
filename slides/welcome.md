@@ -58,6 +58,14 @@ template: introductions-1
 
 ---
 
+template: introductions-1
+
+> I’m personally convinced that computer science has a lot in common with physics. Both are about how the world works at a rather fundamental level. The difference, of course, is that while in physics you’re supposed to figure out how the world is made up, in computer science you create the world.
+>
+> – [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), Just for Fun: The Story of an Accidental Revolutionary (2001)
+---
+
+
 template: introductions
 
 ## Me
@@ -83,396 +91,24 @@ template: introductions
 
 name: know-knew
 
-# What you know you knew
-
----
-
-template: know-knew
-
-## Data types
-
-Programs usually think of data in terms of rigid stereotypes.
-
-- integers
-- floating point numbers
-- booleans
-- strings
-- lists
-- dictionaries/hash tables/associative arrays
-- nonetypes/null/nil
-
-Review [data types](https://github.com/nyu-python-programming/data-types-practice).
-
----
-
-template: know-knew
-
-## Input and output
-
-There are many ways to input and output data from / to external sources.
-
-```python
-response = input("What's your name?")
-```
-
-```python
-print("Hi '{}'!".format(response.capitalize()))
-```
-
-Review [input and output](https://github.com/nyu-python-programming/input-output-expressions).
-
----
-
-template: know-knew
-
-## Boolean logic and decision-making
-
-Programs can adapt to context.
-
-```python
-if this or that and the_other is not also_that:
-    thats_wonderful()
-```
-
-Review [boolean logic](https://github.com/nyu-python-programming/boolean-expressions) and [decision-making](https://github.com/nyu-python-programming/decision-making-practice).
-
----
-
-template: know-knew
-
-## Functions
-
-Functions are modular blocks of code usually designed to perform a single task.
-
-```python
-def thats_wonderful():
-    print("That's wonderful")
-```
-
----
-
-# What you know you knew
-
-## Modules
-
-A module is a simply a reusable library of code.
-
-```python
-# import random module
-import random
-
-def thats_wonderful():
-    # use a function from the random module
-    if random.randint(1,10) > 5:
-        print("That's wonderful")
-    else:
-        print("Okay...")
-```
-
-Review [modules](https://github.com/nyu-python-programming/modules-virtual-environments-examples).
-
----
-
-# What you know you knew
-
-## For loop and while loops
-
-You have choices when repeating blocks of code.
-
-```python
-for i in range(10):
-    print("Welcome!")
-```
-
-```python
-i = 0
-while i < 10:
-    print("Welcome!")
-    i = i + 1
-```
-
-Review [for loops](https://github.com/nyu-python-programming/for-loop-practice) and [while loops](https://github.com/nyu-python-programming/ninety-nine-bottles-of-beer-assignment).
-
----
-
-# What you know you knew
-
-## Lists
-
-Lists are useful for storing a set of related values.
-
-```python
-favorite_foods = [
-    "Pizza",
-    "Noodles",
-    "Vegemite Sandwich"
-    ]
-```
-
----
-
-# What you know you knew
-
-## Dictionaries
-
-Dictionaries contain key/value pairs.
-
-```python
-phone_numbers: {
-    "Alice":    "646-888-5623",
-    "Bob":      "212-717-3297",
-    "Carlos":   "747-211-8451"
-}
-```
-
----
-
-# What you know you knew
-
-## Text files
-
-Data can be stored and retrieved from text files.
-
-```python
-# open file in read mode
-f = open('data.csv', 'r')
-```
-
-```python
-# print out each line of the file
-for line in f:
-    data = line.split(",")
-```
-
----
-
-# What you know you knew
-
-## Strings
-
-Languages offer many ways to analyze and manipulate text data.
-
-```python
-text = "This,That,The other"
-text = text.lower()
-pos = text.find(",")
-if pos > 0:
-    data = text.split(",")
-```
-
----
-
-name: didnt-know-knew
-
-# What you didn't know you knew
-
----
-
-# What you didn't know you knew
-
-## Variables, literals, expressions, and function calls
-
-There are many ways to express value in programs.
-
-```python
-"I am literally a literal"
-```
-
-```python
-I_am_not
-```
-
-```python
-math.pow(washington, 2) + park
-```
-
----
-
-# What you didn't know you knew
-
-## Dot notation
-
-Dots indicate belongingness.
-
-```python
-random.randint(5, 10)
-```
-
-```python
-math.pow(2, 2)
-```
-
-```python
-'help me'.islower()
-```
-
----
-
-# What you didn't know you knew
-
-## Other languages
-
-Try to convince me that you don't understand this code:
-
-```java
-int x = 5;
-boolean y = true;
-if (x < 10 && y == true) {
-    System.out.println("Easy peasy!");
-}
-```
-
-```julia
-x = 5
-y = true
-if x < 10 && y == true
-    println("Easy peasy!")
-end
-```
-
----
-
-name: knew-didnt-know
-
-# What you knew you didn't know
-
----
-
-# What you knew you didn't know
-
-A popular way to think about programs with interacting parts.
-
+# Some key concepts ahead
+
+- Data types: integers, floats, lists, ...
+- Representing numbers in memory
+- Control flow: if/else, loops, boolean logic
 - Object-oriented programming
-
-```python
-alice = new Student("Alice")
-```
-
-```python
-bob = new Professor("Bob")
-```
-
-```python
-bob.say_hello(alice)
-```
-
-Jump ahead half a semester to [object-oriented programming](../../slides/object-orientation)
+- Compilers, interpreters, assemblers
+- Deep and shallow copies
+- Abstraction layers, interfaces
+- Recursion
 
 ---
 
-name: didnt-know-didnt-know
-
-# What you didn't know you didn't know
-
----
-
-template: didnt-know-didnt-know
-name: didnt-know-1
-
-## Basic computer concepts and terminology
-
-Can you answer these questions?
-
-- What is a file? What is a folder?
-
---
-
-- What are good names for files and folders?
-
---
-
-- How do you use the command line?
-
---
-
-- What is a compiler? What is an interpreter? An assembler?
-
-
----
-
-# What you didn't know you didn't know
-
-## Alias vs. copy
-
-What is printed? (this is python code)
-
-```python
-x = 5
-y = x
-x = 10
-print(y)
-```
-
-Try it out!
-
----
-
-# What you didn't know you didn't know
-
-## Raw strings
-
-How many lines are printed?
-
-```python
-x = "First line\nSecond line"
-print(x)
-```
-
-```python
-x = r"First line\nSecond line"
-print(x)
-```
-
----
-
-# What you didn't know you didn't know
-
-## Multidimensional arrays
-
-```python
-row1 = [1, 2, 3]
-row2 = [4, 5, 6]
-row3 = [7, 8, 9]
-```
-
-```python
-data = [row1, row2, row3]
-```
-
-```python
-print(data[1][2])
-```
-
-Jump ahead half a semester to [multi-dimensional arrays](../../slides/arrays-multidimensional).
-
----
-
-# What you didn't know you didn't know
-
-## Recursion
-
-How many times is the function called?
-
-```python
-def foo(x):
-  if x < 3:
-      foo(x+1)
-      foo(x+1)
-
-foo(1)
-```
-
-Jump ahead almost a semester to [recursion](../../slides/recursion).
-
----
-
-# What you didn't know you didn't know
-
-## You can place out of this class
+# You can place out of this class
 
 If you are comfortable with multi-dimensional arrays, object-oriented programming, and recursion, consider taking a placement exam to skip this course.
 
-Learn about [placement exams](https://cs.nyu.edu/home/undergrad/placement_sample_exams.html).
+See the [placement exams](https://cs.nyu.edu/home/undergrad/placement_sample_exams.html).
 
 ---
 
@@ -507,7 +143,7 @@ template: how-course-works
 
 ## Slides
 
-The slides are available on the [schedule](../../schedule). The slides are more of a table of contents of the lecture and are not meant to replace the textbook, notes, or example code.
+The slides are available on the [schedule](../../schedule). The slides are more of a table of contents of the lecture and are not meant to replace a textbook or the example code.
 
 ---
 
@@ -525,7 +161,7 @@ template: how-course-works
 
 ## Assignments
 
-You will have somewhere around 8 assignments.
+You will have somewhere around 7 assignments.
 
 Extensions are available on request.
 
@@ -560,7 +196,7 @@ A lot of it is "learning by doing". The vast majority of your exam prep should b
 --
 
 Practice problems can be found
-- in the [corresponding repo](https://github.com/ToBlick/cs101-examples/tree/main)
+- in the [corresponding repo](https://github.com/ToBlick/cs101-examples/tree/main), along with my exams from previous semesters
 - on online programming learning platforms (these are very popular for anyone practicing for interview questions)
 - by asking your favorite LLM to generate you some
 - by talking to your fellow students
@@ -571,8 +207,8 @@ template: how-course-works
 
 ## Grading
 
-- 15% in-class quizzes
-- 15% assignments
+- 10% assignments
+- 20% in-class quizzes
 - 20% first exam
 - 20% second exam
 - 30% third exam
@@ -587,7 +223,7 @@ Programming can feel very binary: things work or they do not. This can be both v
 
 --
 
-On a scale from 1 (easy) to 5, the course was rated 3.9, 4.5, and 4.1 in previous semesters. Note that these are ratings from those students who did not end up dropping the course. Roughly half of the students stated they spend 3 to 5 hours a week on the course, the other half 6 to 8.
+On a scale from 1 (easy) to 5, the course is usually rated 4 - 5 in previous semesters. Note that these are ratings from those students who did not end up dropping the course.
 
 --
 
@@ -599,7 +235,7 @@ template: how-course-works
 
 ## Communication
 
-Announcements concerning the course will be posted on Brightspace. There is also a discussions forum there. You can always talk to me before or after class. If you want to meet outside of those times, please reach out via email.
+Announcements concerning the course will be posted on Brightspace. There is also a discussion forum there. You can always talk to me before or after class. If you want to meet outside of those times, please reach out via email.
 
 ---
 
@@ -608,8 +244,6 @@ template: how-course-works
 ## Tutoring
 
 Tutors are available to answer your questions and help you with anything related to the course.
-
-See them often and early.
 
 The tutoring schedule is released on Brightspace.
 

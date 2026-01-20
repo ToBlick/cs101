@@ -24,14 +24,11 @@ Intro to Computer Science
 
 ---
 
-name: introductions
 
 # Introductions
 
 ---
 
-template: introductions
-name: introductions-1
 
 ## This course
 
@@ -42,15 +39,12 @@ Introduction to Computer Science
 
 ---
 
-template: introductions-1
-
 Official description:
 
 > How to design algorithms to solve problems and how to translate these algorithms into working computer programs. Experience is acquired through projects in a high-level programming language. Intended primarily for computer science majors but also suitable for students of other scientific disciplines. Programming assignments.
 
 ---
 
-template: introductions-1
 
 > I shall use the word programming to denote the whole activity of design and implementation of programmed solutions. What I am concerned with is the activity of matching some significant part and aspect of an activity in the real world to the formal symbol manipulation that can be done by a program running on a computer.
 >
@@ -58,15 +52,11 @@ template: introductions-1
 
 ---
 
-template: introductions-1
 
 > I’m personally convinced that computer science has a lot in common with physics. Both are about how the world works at a rather fundamental level. The difference, of course, is that while in physics you’re supposed to figure out how the world is made up, in computer science you create the world.
 >
 > – [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), Just for Fun: The Story of an Accidental Revolutionary (2001)
 ---
-
-
-template: introductions
 
 ## Me
 
@@ -78,7 +68,6 @@ Warren Weaver Hall 402 (251 Mercer St, New York)
 
 ---
 
-template: introductions
 
 ## You
 
@@ -89,17 +78,22 @@ template: introductions
 
 ---
 
-name: know-knew
-
 # Some key concepts ahead
 
 - Data types: integers, floats, lists, ...
+--
 - Representing numbers in memory
+--
 - Control flow: if/else, loops, boolean logic
+--
 - Object-oriented programming
+--
 - Compilers, interpreters, assemblers
+--
 - Deep and shallow copies
+--
 - Abstraction layers, interfaces
+--
 - Recursion
 
 ---
@@ -112,14 +106,11 @@ See the [placement exams](https://cs.nyu.edu/home/undergrad/placement_sample_exa
 
 ---
 
-name: how-course-works
 
 # How this course works
 
 ---
 
-template: how-course-works
-name: how-course-works-1
 
 ## Lecture
 
@@ -131,7 +122,6 @@ Please do interrupt me and ask questions. Lectures are more effective when they 
 
 ---
 
-template: how-course-works
 
 ## Notes
 
@@ -139,15 +129,12 @@ There are notes for most lecture topics by [Amos Bloomberg](https://knowledge.ki
 
 ---
 
-template: how-course-works
-
 ## Slides
 
 The slides are available on the [schedule](../../schedule). The slides are more of a table of contents of the lecture and are not meant to replace a textbook or the example code.
 
 ---
 
-template: how-course-works
 
 ## Reading
 
@@ -157,7 +144,6 @@ See what works best for you.
 
 ---
 
-template: how-course-works
 
 ## Assignments
 
@@ -167,7 +153,6 @@ Extensions are available on request.
 
 ---
 
-template: how-course-works
 
 ## Quizzes
 
@@ -177,7 +162,6 @@ In-class quizzes are there for you to check your knowledge before the exams. You
 
 ---
 
-template: how-course-works
 
 ## Exams
 
@@ -185,7 +169,6 @@ You will take 3 exams.
 
 ---
 
-template: how-course-works
 
 ## Practice
 
@@ -203,7 +186,6 @@ Practice problems can be found
 
 ---
 
-template: how-course-works
 
 ## Grading
 
@@ -215,7 +197,6 @@ template: how-course-works
 
 ---
 
-template: how-course-works
 
 ## How tough is this course?
 
@@ -231,7 +212,6 @@ The exams are challenging. The idea behind this is that small errors, "typos" an
 
 ---
 
-template: how-course-works
 
 ## Communication
 
@@ -239,7 +219,6 @@ Announcements concerning the course will be posted on Brightspace. There is also
 
 ---
 
-template: how-course-works
 
 ## Tutoring
 
@@ -306,7 +285,6 @@ It is a good idea to get accustomed to LLM/AI tools without becoming fully depen
 
 ---
 
-name: conclusions
 
 # Conclusions
 

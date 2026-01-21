@@ -9,18 +9,6 @@ class: center, middle
 
 Intro to Computer Science
 
----
-
-# Agenda
-
-1. [Introductions](#introductions)
-2. [What you know you knew](#know-knew)
-3. [What you didn't know you knew](#didnt-know-knew)
-4. [What you knew you didn't know](#knew-didnt-know)
-5. [What you didn't know you didn't know](#didnt-know-didnt-know)
-6. [How this course works](#how-course-works)
-7. [What to do now](#do-now)
-8. [Conclusions](#conclusions)
 
 ---
 
@@ -39,12 +27,15 @@ Introduction to Computer Science
 
 ---
 
+## This course
+
 Official description:
 
 > How to design algorithms to solve problems and how to translate these algorithms into working computer programs. Experience is acquired through projects in a high-level programming language. Intended primarily for computer science majors but also suitable for students of other scientific disciplines. Programming assignments.
 
 ---
 
+## Motivational Quotes
 
 > I shall use the word programming to denote the whole activity of design and implementation of programmed solutions. What I am concerned with is the activity of matching some significant part and aspect of an activity in the real world to the formal symbol manipulation that can be done by a program running on a computer.
 >
@@ -52,6 +43,7 @@ Official description:
 
 ---
 
+## Motivational Quotes
 
 > I’m personally convinced that computer science has a lot in common with physics. Both are about how the world works at a rather fundamental level. The difference, of course, is that while in physics you’re supposed to figure out how the world is made up, in computer science you create the world.
 >
@@ -78,22 +70,36 @@ Warren Weaver Hall 402 (251 Mercer St, New York)
 
 ---
 
-# Some key concepts ahead
+## Some key concepts ahead
 
 - Data types: integers, floats, lists, ...
+
 --
+
 - Representing numbers in memory
+
 --
+
 - Control flow: if/else, loops, boolean logic
+
 --
+
 - Object-oriented programming
+
 --
+
 - Compilers, interpreters, assemblers
+
 --
+
 - Deep and shallow copies
+
 --
+
 - Abstraction layers, interfaces
+
 --
+
 - Recursion
 
 ---

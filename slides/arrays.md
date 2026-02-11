@@ -296,7 +296,7 @@ String[] words = {"good", "how", "morning", "are", "you"};
 String searchTerm = "morning";
 int pos = -1; // start out with a value that indicates we haven't found the searched-for value yet
 for (int i=0; i < words.length; i++) {
-    if (words[i] == searchTerm) {
+    if (words[i].equals(searchTerm)) {
         pos = i; // we have found the value at the position i
     }
 }
@@ -365,9 +365,9 @@ template: binary-search
 Binary search can be performed using the `Arrays.binarySearch()` method:
 
 ```java
-int[] numbers = {2456, 35, 25986, 10, 12};
-int searchTerm = 10;
-int pos = Arrays.binarySearch(numbers, searchTerm); // -> 3
+int[] numbers = {9, 18, 42, 762, 8641, 12345};
+int searchTerm = 42;
+int pos = Arrays.binarySearch(numbers, searchTerm); // -> 2
 ```
 
 ---
@@ -452,7 +452,7 @@ The `ArrayList` class, part of the `java.util` package, is designed to give prog
 
 --
 
-- `ArrayList` is not a primitive data type or data structure in Java - it is not built into the language as a native type
+- `ArrayList` is not built into the language as a native type
 
 --
 
@@ -569,7 +569,7 @@ When a _reference type_ (e.g. an array or object) is passed as an argument to a 
 
 ```java
 public static void doSomething(int[] x) {
-    x = {25, 30, 35}; // the local variable is re-assigned to point to a different memory address
+    x = new int[] {25, 30, 35}; // the local variable is re-assigned to point to a different memory address
 }
 public static void main(String[] args) {
     int x[] = {5, 10, 15, 20};

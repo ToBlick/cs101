@@ -26,15 +26,17 @@ Code snippets from the lectures can be found [here](https://github.com/ToBlick/c
 | 1/19 | Mon | — | *No class* | Martin Luther King, Jr. Birthday | |  |
 | 1/21 | Wed | 1 | Syllabus & Welcome | [Welcome](../slides/welcome) | [Syllabus](../syllabus) | |
 | 1/26 | Mon | 2 | Basic computer concepts | [Basic computer concepts](../slides/basic_computer_concepts) | [Computer Science: Not about Computers, Not Science](../content/assets/Computer_Science_Not_About_Computers_Not_a_Science.pdf) | |
-| 1/28 | Wed | 3 | Unix | [Unix intro](../slides/unix-intro) | - Chapter 1<br />- [Unix Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/), 1 & 2 | |
-| 2/2 | Mon | 4 | The Java paradigm | [Java paradigm](../slides/java-paradigm) | - Chapter 2<br />- [Java acronyms](https://www.javatpoint.com/difference-between-jdk-jre-and-jvm#jre) | *Add/Drop Deadline* |
-| 2/4 | Wed | 5 | Starter code | [Starter code](../slides/starter-code) | | |
-| 2/9 | Mon | 6 | Decision-making | [Branching](../slides/branching) | - Oracle tutorials: [Primitive data types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)<br />- [Decision-making example code](https://github.com/nyu-java-programming/decision-making-examples) | |
-| 2/11 | Wed | 7 | Loops | [Loops](../slides/loops) | - Chapter 5<br />- [Loops example code](https://github.com/nyu-java-programming/loops-examples) | |
+|      |     |   | Unix | [Unix intro](../slides/unix-intro) | - Chapter 1<br />- [Unix Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/), 1 & 2 | |
+| 1/28 | Wed | 4 | The Java paradigm | [Java paradigm](../slides/java-paradigm) | - Chapter 2<br />- [Java acronyms](https://www.javatpoint.com/difference-between-jdk-jre-and-jvm#jre) | *Add/Drop Deadline* |
+|      |     |   | Starter code | [Starter code](../slides/starter-code) | | |
+| 2/2  | Mon | 5 | Decision-making | [Branching](../slides/branching) | - Oracle tutorials: [Primitive data types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)<br />- [Decision-making example code](https://github.com/nyu-java-programming/decision-making-examples) | |
+| 2/4  | Wed | 6 | Loops | [Loops](../slides/loops) | - Chapter 5<br />- [Loops example code](https://github.com/nyu-java-programming/loops-examples) | |
+| 2/9  | Mon | 7 | Methods | [Methods](../slides/methods) | - Chapter 6<br />- [Methods example code](https://github.com/nyu-java-programming/methods-examples) | *Legislative Monday* |
+| 2/11 | Wed | 8 | Arrays | [Arrays](../slides/arrays) | - Chapter 7<br />- [Arrays example code](https://github.com/nyu-java-programming/array-examples) | |
 | 2/16 | Mon | — | *No class* | Presidents' Day | | |
-| 2/17 | Tue | 8 | Methods | [Methods](../slides/methods) | - Chapter 6<br />- [Methods example code](https://github.com/nyu-java-programming/methods-examples) | *Legislative Monday* |
-| 2/18 | Wed | 9 | Arrays | [Arrays](../slides/arrays) | - Chapter 7<br />- [Arrays example code](https://github.com/nyu-java-programming/array-examples) | |
-| 2/23 | Mon | 10 | Multidimensional arrays | [Multidimensional arrays](../slides/multidimensional-arrays) | - [Javadoc](../javadoc)<br />- Chapter 8<br />- [Multidimensional arrays example code](https://github.com/nyu-java-programming/multidimensional-array-examples) | |
+| 2/17 | Tue | 9 | TBD | | | |
+| 2/18 | Wed | 10 | Multidimensional arrays | [Multidimensional arrays](../slides/multidimensional-arrays) | - [Javadoc](../javadoc)<br />- Chapter 8<br />- [Multidimensional arrays example code](https://github.com/nyu-java-programming/multidimensional-array-examples) | |
+| 2/23 | Mon | 10 | TBD | | | |
 | 2/25 | Wed | 11 | Documenting source code | | | |
 | 3/2 | Mon | 12 | Review | [Review](../slides/exam-1-review) | | |
 | 3/4 | Wed | 13 | **Exam #1** | | | |

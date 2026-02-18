@@ -35,7 +35,7 @@ Code snippets from the lectures can be found [here](https://github.com/ToBlick/c
 | 2/11 | Wed | 8 | Arrays | [Arrays](../slides/arrays) | - Chapter 7<br />- [Arrays example code](https://github.com/nyu-java-programming/array-examples) | |
 | 2/16 | Mon | — | *No class* | Presidents' Day | | |
 | 2/17 | Tue | 9 | TBD | | | |
-| 2/18 | Wed | 10 | Multidimensional arrays | [Multidimensional arrays](../slides/multidimensional-arrays) | - [Javadoc](../javadoc)<br />- Chapter 8<br />- [Multidimensional arrays example code](https://github.com/nyu-java-programming/multidimensional-array-examples) | |
+| 2/18 | Wed | 10 | Multidimensional arrays | [Multidimensional arrays](../slides/arrays-multidimensional) | - [Javadoc](../javadoc)<br />- Chapter 8<br />- [Multidimensional arrays example code](https://github.com/nyu-java-programming/multidimensional-array-examples) | |
 | 2/23 | Mon | 10 | TBD | | | |
 | 2/25 | Wed | 11 | Documenting source code | | | |
 | 3/2 | Mon | 12 | Review | [Review](../slides/exam-1-review) | | |

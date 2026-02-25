@@ -36,10 +36,10 @@ Code snippets from the lectures can be found [here](https://github.com/ToBlick/c
 | 2/16 | Mon | — | *No class* | Presidents' Day | | |
 | 2/17 | Tue | 9 | Practice | | | |
 | 2/18 | Wed | 10 | Multidimensional arrays | [Multidimensional arrays](../slides/arrays-multidimensional) | [Multidimensional arrays example code](https://github.com/nyu-java-programming/multidimensional-array-examples) | |
-| 2/23 | Mon | 10 | Quiz 1 | | | |
-| 2/25 | Wed | 11 | Review + Documenting source code | [Review](../slides/exam-1-review) | [Javadoc](../javadoc) | |
-| 3/2 | Mon | 12 | **Exam #1** |  | | |
-| 3/4 | Wed | 13 | TBD | | | |
+| 2/23 | Mon | 10 | Practice | | | |
+| 2/25 | Wed | 11 | Quiz 1  | | | |
+| 3/2 | Mon | 12 |  Review + Documenting source code |[Review](../slides/exam-1-review) | [Javadoc](../javadoc) | |
+| 3/4 | Wed | 13 | **Exam #1** | | | |
 | 3/9 | Mon | 14 | Object-oriented programming | [Object orientation](../slides/object-orientation) | - Chapter 9<br />- [Object orientation example code](https://github.com/nyu-java-programming/simple-object-examples) | |
 | 3/11 | Wed | 15 | Exam #1 discussion | | | |
 | 3/16–3/20 | | — | *No class* | Spring Break | | *Spring Break* |
